@@ -1,2 +1,2 @@
-theme: jekyll-theme-dinky
-include: ['_projects']
+include: ['projects']
+markdown : kramdown
