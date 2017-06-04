@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Portal Proposal and Design Reflection
+project: reflection
 published: true
 updated: 31 May, 2017
 ---

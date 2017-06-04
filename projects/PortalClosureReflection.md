@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Portal Closure Reflection
+project: reflection
 published: true
 updated: 31 May, 2017
 ---

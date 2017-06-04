@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Recipe Database
+project: artifact
 published: true
 updated: 31 May, 2017
 ---

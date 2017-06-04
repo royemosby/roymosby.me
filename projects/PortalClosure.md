@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Portal Closure
+project: artifact
 published: true
 updated: 31 May, 2017
 ---
@@ -112,13 +113,13 @@ One mitigation that proved to be useful was frequent, informal audits. One of th
 
 The stakeholder workgroup has outlined several goals to be reached to consider the project a success. Each goal has a few specific objectives to be achieved to meet the goal.
 
-**\\#1) Provide a consistent set of features across all the site collections and sites.**  
+**\#1) Provide a consistent set of features across all the site collections and sites.**  
 
 &&&& Table1
 
 All objectives have been met under this requirement have been met.
 
-**\\#2) Decrease the burden of site collection administration through consolidation.**
+**\#2) Decrease the burden of site collection administration through consolidation.**
 
 The migration team will examine the current portal structure to consolidate as many site collections as possible. Considerations will include the topological organization of the command, the amount of data generated inside each section, and the amount of traffic each section receives.
 
@@ -126,7 +127,7 @@ The migration team will examine the current portal structure to consolidate as m
 
   All objectives have been met under this requirement have been met.
 
-**\\#3) Provide a consistent user experience across all sites though uniform layouts.**
+**\#3) Provide a consistent user experience across all sites though uniform layouts.**
 
 Consistent user experience will be provided using pre-populated publishing site and team site templates. They will provide a similar set of apps so that each site is intuitively used in a similar manner across the entire portal.
 
@@ -134,7 +135,7 @@ Consistent user experience will be provided using pre-populated publishing site 
 
 The first two objectives have been met. The final will be met when two battalion sized elements receive buildout assistance from the project manager. The estimated time of completion is the 17th of February.
 
-**\\#4) Provide a brand standardization for current and future sites.**
+**\#4) Provide a brand standardization for current and future sites.**
 
 Closely tied to the site templates, master pages will provide styling that provides a professional look and feel.
 
@@ -142,13 +143,13 @@ Closely tied to the site templates, master pages will provide styling that provi
 
 All objectives have been met under this requirement have been met.
 
-**\\#5) Users should have an easy time finding reliable content.** *metrics: 0 failed searches relating to terms found in the organization’s ontology. 50% less user self-reported search frustration over a 6-month period\*
+**\#5) Users should have an easy time finding reliable content.** *metrics: 0 failed searches relating to terms found in the organization’s ontology. 50% less user self-reported search frustration over a 6-month period\*
 
 Portal governance will be established by the migration team and then enforced by section representatives responsible for a portion of the portal. Where possible, governance mechanisms will be embedded into the functions of the portal so that compliance is in line with usage. This can be done through field validation, content retention policies, and workflows. Efforts will be put into a thorough content inventory to include documents, lists and calendar entries, and workflows. As items are identified, they will go through a screening process to ensure that only information of value makes it through the migration. All suitable content will be backed up on local admin computers, then ported over to the new SP as sites become available.
 
 &&&& Table5
 
-Tied to sub-site creation under requirement \\#3 this objective will be completed after the two sub-units receive assistance from the project manager. Estimated completion is 20 February.  
+Tied to sub-site creation under requirement \#3 this objective will be completed after the two sub-units receive assistance from the project manager. Estimated completion is 20 February.  
 
 ### Issues
 

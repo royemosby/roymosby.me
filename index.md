@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Roy Mosby's Portfolio
 published: true
 updated: 31 May, 2017
@@ -13,12 +13,12 @@ I am almost finished with a Bachelor's in IT and have pursued other educational 
 
 During my time as a soldier, I have been a technician, team leader, and have worked in and out of my career field fulfilling a variety of roles.
 
-- *Sep 2009- Sep 2012*- Private automated branch exchange technician who oversaw installation and maintenance of Promina 400 and PABX systems, enabling deployed NATO command teams to utilize both voice and data communication systems.
+- **Sep 2009- Sep 2012**- Private automated branch exchange technician who oversaw installation and maintenance of Promina 400 and PABX systems, enabling deployed NATO command teams to utilize both voice and data communication systems.
 
-- *Sep 2012- Aug 2013*- Communications team leader responsible for configuring and maintaining training networks to facilitate training for visiting multinational units.
+- **Sep 2012- Aug 2013**- Communications team leader responsible for configuring and maintaining training networks to facilitate training for visiting multinational units.
 
-- *Aug 2013- Jan 2014*- Communications section leader responsible for the teams tasked with installation of training networks for US and international military exercises. Established and supervised teams to install operating systems, software, and network topology to support specifications required by training units.
+- **Aug 2013- Jan 2014**- Communications section leader responsible for the teams tasked with installation of training networks for US and international military exercises. Established and supervised teams to install operating systems, software, and network topology to support specifications required by training units.
 
-- *Jan 2014- Oct 2015*- Provided operational support for Joint Multinational Simulation Center. Unit representative for knowledge management efforts. Responsible for coordinating resources for training units and delegating tasks assigned by higher unit.
+- **Jan 2014- Oct 2015**- Provided operational support for Joint Multinational Simulation Center. Unit representative for knowledge management efforts. Responsible for coordinating resources for training units and delegating tasks assigned by higher unit.
 
-- *Nov 2015-Present*- Maintains SharePoint 2010 site collections on 2 networks for division staff and subordinate units, to include permissions, site layout, and content management.
+- **Nov 2015-Present**- Maintains SharePoint 2010 site collections on 2 networks for division staff and subordinate units, to include permissions, site layout, and content management.
