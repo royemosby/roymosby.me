@@ -5,7 +5,7 @@ published: true
 updated: 31 May, 2017
 ---
 
-#About Me
+# About Me
 
 My name is Roy Mosby and I have been in the U.S. Army’s Signal Corps for almost 15 years. Coming up on 20 years total military service, I am preparing to retire and look into another career. I have a strong history of process improvement with focus on devising alternative strategies for streamlining routine tasks. I have also been recognized by several units for improving organizational productivity and efficiency.
 
