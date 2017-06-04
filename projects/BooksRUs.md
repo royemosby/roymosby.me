@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: Books-R-Us
 project: artifact
 published: true

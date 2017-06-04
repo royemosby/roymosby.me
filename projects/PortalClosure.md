@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: Portal Closure
 project: artifact
 published: true

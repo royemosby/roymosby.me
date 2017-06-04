@@ -9,7 +9,7 @@ updated: 31 May, 2017
 
 My name is Roy Mosby and I have been in the U.S. Army’s Signal Corps for almost 15 years. Coming up on 20 years total military service, I am preparing to retire and look into another career. I have a strong history of process improvement with focus on devising alternative strategies for streamlining routine tasks. I have also been recognized by several units for improving organizational productivity and efficiency.
 
-I am almost finished with a Bachelor's in IT and have pursued other educational opportunities to further improve myself. In August, 2014, I attended Army Knowledge Management Course. In September of 2015, I gained Knowledge Management certification through KMPro.
+I have recently finished a Bachelor's in IT and have pursued other educational opportunities to further improve myself. In August, 2014, I attended Army Knowledge Management Course. In September of 2015, I gained Knowledge Management certification through KMPro.
 
 During my time as a soldier, I have been a technician, team leader, and have worked in and out of my career field fulfilling a variety of roles.
 

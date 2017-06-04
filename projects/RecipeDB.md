@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: Recipe Database
 project: artifact
 published: true

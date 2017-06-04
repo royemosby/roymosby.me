@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: Portal Design
 project: artifact
 published: true

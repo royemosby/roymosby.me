@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: Hubs vs switches
 project: artifact
 published: true

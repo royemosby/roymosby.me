@@ -1,12 +1,12 @@
 ---
-layout: page
+layout: project
 title: Acme Warehouse
 project: artifact
 published: true
 updated: 31 May, 2017
 ---
 
-# IT489-04
+## IT489-04
 ## Abstract
 
 This paper provides a justification for a business to invest $8000 to upgrade its wireless network.

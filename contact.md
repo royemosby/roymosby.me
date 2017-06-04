@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact Roy
+title: Contact
 published: true
 updated: 31 May, 2017
 ---
