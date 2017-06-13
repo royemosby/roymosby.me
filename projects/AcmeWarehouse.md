@@ -6,11 +6,6 @@ published: true
 updated: 31 May, 2017
 ---
 
-## IT489-04
-## Abstract
-
-This paper provides a justification for a business to invest $8000 to upgrade its wireless network.
-
 ## Business case
 
 In 2004, ACME Corps installed a wireless network onto its existing infrastructure. Such a move provided the company flexibility by untethering employees from a hard-wired enterprise network. However, with the rate of technological change over the last decade, Acme Corps needs to perform some upgrades to keep up with existing standards.

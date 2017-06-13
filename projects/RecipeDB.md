@@ -6,10 +6,6 @@ published: true
 updated: 31 May, 2017
 ---
 
-## IT489-01
-## Abstract
-
-This document presents a database that keeps track of food recipes and can generate grocery lists based on recipes chosen by the user. It provides a process narrative for grocery list generation and an explanation of how the database assists this process. The database's relational schema is defined though the use of entity relationship diagrams. The conclusion of the document contains the source code to the database.
 
 ## Database objective
 

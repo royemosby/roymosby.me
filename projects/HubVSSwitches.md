@@ -2,14 +2,11 @@
 layout: project
 title: Hubs vs switches
 project: artifact
-published: true
+published: false
 updated: 31 May, 2017
 ---
 
-## IT489-05
-## Abstract
 
-This paper provides a rationale for a business to change from hubs to switches for its networking needs.
 
 Consider a hub like a one-lane, neighborhood street and data flow like household cars. Each car entering or exiting the road has to wait for any other car to go to avoid a collision. If there are few families on that street, then traffic is not a big deal. As the amount of families on that single street increases, there are more cars that are using the same road. Each car still has to wait its turn and delays start to add up. At a certain point congestion becomes an issue causing excessive amount of collisions or congestion. With a neighborhood, this problem is resolved through the use of sub-divisions. By introducing two-lane, parallel, and intersecting streets, not all the neighborhood’s traffic has to use the same street. Different households can use differing routes, decreasing congestion in the neighborhood.
 

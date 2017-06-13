@@ -6,10 +6,6 @@ published: true
 updated: 31 May, 2017
 ---
 
-## IT489-06
-## Abstract
-
-This paper covers implementation and project closure for a migration from SharePoint 2010 to 2013. It will cover the scope of the project, review the list of requirements to provide a completed project status, and discuss the approaches used to ensure project completion. It will also reference key project artifacts to demonstrate work completed on this project.
 
 ## Introduction
 

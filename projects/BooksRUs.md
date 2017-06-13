@@ -6,7 +6,6 @@ published: true
 updated: 31 May, 2017
 ---
 
-## IT489-02
 ## Introduction
 
 Book-R-Us is a private business that sells books at two locations in the Northeast. They plan to expand operations to 10 different facilities across New England in the next 5 years. With the expansion of operations, they have identified that their current sales and inventory management system- SIMS- will not scale. In addition, they wish to increase the system’s capabilities to include e-commerce, online book ordering for pick-up, and inter-store supply-chain communication. This move will address operational concerns and management feels that it will put it on competitive grounds with online competitors such as Amazon.com.
