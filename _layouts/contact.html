@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+<head>
+  {% include head.html %}
+</head>
+
+<body>
+
+  {% include header.html %}
+
+  <div class="row">
+    {% include sidebarMain.html %}
+
+    <div class="small-12 medium-6 columns">
+      <div class="row" data-equalizer data-equalize-on="medium" id="test-eq" style="margin-top:200px;">
+        <div class="medium-4 columns">
+          <a href="#"><img src="images/linkedin.svg" alt="linkedin"></a>
+        </div>
+        <div class="medium-4 columns">
+          <a href="#"><img src="/images/twitter.svg"></a>
+        </div>
+        <div class="medium-4 columns">
+          <a href="#"><img src="/images/facebook.svg"></a>
+        </div>
+
+      </div>
+      <div class="row" data-equalizer data-equalize-on="medium" id="test-eq" style="margin-top:50px;">
+        <div class="medium-3 columns">
+          <a href="#"><img src="/images/email.svg"></a>
+        </div>
+        <div class="medium-3 columns">
+          <a href="#"><img src="/images/phone.svg"></a>
+        </div>
+        <div class="medium-3 columns">
+          <a href="#"><img src="/images/github.svg"></a>
+        </div>
+        <div class="medium-3 columns">
+          <a <href="#"><img src="/images/meetup.svg"></a>
+          </hgroup>
+          <!--
+        <div class="medium-3 columns">
+          <a href="#"></a>
+        </div>        -->
+
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %} {% include scripts.html %}
+</body>
+
+</html>

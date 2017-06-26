@@ -175,3 +175,6 @@ The CMs will be responsible for the maintenance of permissions groups and enforc
 Rouse, M. (2012) Role-based access control (RBAC). Retrieved from [http://searchsecurity.techtarget.com/definition/role-based-access-control-RBAC](http://searchsecurity.techtarget.com/definition/role-based-access-control-RBAC)
 
 Booch, G., Maksimchuk, R., Engle, M., Young, B., Conallen, J., and Houston, K. (2007). *Object-oriented analysis and design with applications*. Boston: Pearson Education, Inc.
+
+* TOC
+{:toc}

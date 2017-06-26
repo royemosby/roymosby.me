@@ -344,3 +344,6 @@ The DBMS will use the menu selections to build a query to return the appropriate
 Coronel, C. (2015). *Database systems: design, implementation, and management* (11th ed.). United States: Cengage Learning.
 
 RPi a simple Wheezy LAMP install. (Oct, 2014). Retrieved June 28, 2015 from [ http://elinux.org/RPi\_A\_Simple\_Wheezy\_LAMP\_install ](#)
+
+* TOC
+{:toc}

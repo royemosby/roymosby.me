@@ -29,3 +29,6 @@ Network speed and signal coverage are two important areas that can be improved b
 Fitzpatrick, J. (n.d.) *Why does running my microwave kill my wi-fi connectivity?* Retrieved from [http://www.howtogeek.com/171869/why-does-running-my-microwave-kill-my-wi-fi-connectivity/ ](http://www.howtogeek.com/171869/why-does-running-my-microwave-kill-my-wi-fi-connectivity/)
 
 Sreekanth, G. (Oct 2008). *Security issues of IEEE 802.11b.* Retrieved from [http://www.slideshare.net/sreekanth/security-issues-of-ieee-80211b-presentation](http://www.slideshare.net/sreekanth/security-issues-of-ieee-80211b-presentation)
+
+* TOC
+{:toc}
