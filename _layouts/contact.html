@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+<head>
+  {% include head.html %}
+</head>
+
+<body>
+
+  {% include header.html %}
+
+  <div class="grid-x">
+    {% include sidebarMain.html %}
+
+    <div class="small-12 medium-6 cell">
+      <div class="grid-x top-row" data-equalizer data-equalize-on="medium" id="test-eq">
+        <div class="medium-4 cell">
+          <a href="#"><img src="images/linkedin.svg" alt="linkedin"></a>
+        </div>
+        <div class="medium-4 cell">
+          <a href="#"><img src="/images/twitter.svg"></a>
+        </div>
+        <div class="medium-4 cell">
+          <a href="#"><img src="/images/facebook.svg"></a>
+        </div>
+
+      </div>
+      <div class="grid-x bottom-row" data-equalizer data-equalize-on="medium" id="test-eq">
+        <div class="medium-3 cell">
+          <a href="#"><img src="/images/email.svg"></a>
+        </div>
+        <div class="medium-3 cell">
+          <a href="#"><img src="/images/phone.svg"></a>
+        </div>
+        <div class="medium-3 cell">
+          <a href="#"><img src="/images/github.svg"></a>
+        </div>
+        <div class="medium-3 cell">
+          <a <href="#"><img src="/images/meetup.svg"></a>
+          </hgroup>
+          <!--
+        <div class="medium-3 cell">
+          <a href="#"></a>
+        </div>        -->
+
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %} {% include scripts.html %}
+</body>
+
+</html>

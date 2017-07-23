@@ -139,3 +139,6 @@ Provided a tight timeline, the 3ID portal will be migrated from SP 2010 to 2013.
 Booch, G., Maksimchuk, R., Engle, M., Young, B., Conallen, J., and Houston, K. (2007). *Object-oriented analysis and design with applications*. Boston: Pearson Education, Inc.
 
 TechNet. (2014). *Scripting with Windows PowerShell*. Retrieved from https://technet.microsoft.com/en-us/library/bb978526.aspx
+
+* TOC
+{:toc}

@@ -29,3 +29,6 @@ Since the information flow does not reach all devices, they do not have to wait 
 Resource:
 
 Pacchiano, R. (2006). Router vs switch vs hub: what’s the difference? [http://www.webopedia.com/DidYouKnow/Hardware\_Software/router\_switch\_hub.asp](http://www.webopedia.com/DidYouKnow/Hardware_Software/router_switch_hub.asp)
+
+* TOC
+{:toc}

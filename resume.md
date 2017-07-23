@@ -11,6 +11,7 @@ updated: 31 May, 2017
 - roy.e.mosby@gmail.com
 
 ## Profile
+
 Bachelor's in IT with a background in content management and SharePoint site collection administration. Strong history of process improvement with focus on devising alternative strategies for streamlining routine tasks. Recognized for improving organizational productivity and efficiency.
 
 ## Education
@@ -21,7 +22,6 @@ Bachelor's in IT with a background in content management and SharePoint site col
 **Sep 2015** KMPro Knowledge Management Certification Course
 
 **Aug 2014** Army Knowledge Management Course
-
 
 ## Experience
 

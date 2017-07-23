@@ -193,3 +193,6 @@ Appendix
 References
 
 Booch, G., Maksimchuk, R., Engle, M., Young, B., Conallen, J., and Houston, K. (2007). *Object oriented analysis and design with applications* [3rd ed.]. Boston: Pearson Education, Inc.
+
+* TOC
+{:toc}
