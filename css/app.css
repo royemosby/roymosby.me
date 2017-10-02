@@ -1,6 +1,4 @@
-/*_layouts contact*/
-
-
+/*_layouts contact.html*/
 .bottom-row {
     margin-top: 50px;            
 }
@@ -8,3 +6,24 @@
 .top-row {
     margin-top:200px;
 }
+
+/*end _layouts contact*/
+
+/*_includes header.html*/
+
+#titlebar {
+    background-color: #000;
+    color: #ccc;
+}    
+
+/*end_includes header.html*/
+
+/*_includes sidebarMain.html*/
+
+.menu-splitter {
+    max-width: 223px;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+/*end _includes sidebarMain.html*/
