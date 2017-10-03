@@ -2,7 +2,7 @@
 layout: project
 title: Recipe Database
 project: artifact
-published: true
+published: false
 updated: 31 May, 2017
 ---
 
