@@ -5,14 +5,14 @@ project: artifact
 published: true
 updated: 31 May, 2017
 ---
-
-
 ## Design Introduction
+
 The 3rd Infantry Division’s (3ID) unclassified SharePoint (SP) 2010 portal will be upgraded to SP 2013. The SP in place services the division staff, two brigade combat teams, an aviation brigade, division artillery, a support brigade, and several co-located units. It consists of over 40 site collections each of which contain nested sub-sites organized to reflect the division’s organization chart. SP’s primary use is as an ECM, providing storage and workspace for various operational and administrative documents. Calendars and custom lists are implemented across SP based on the needs and skill levels of the units using them. SP workflows have also been adopted to support certain business processes, particularly as help-desk systems and HR functions.
 
 3ID will be using the migration to reduce the number of site collections, provide the division with a uniform feature set upon which to build future functionality, and re-invigorate a sustainable content management policy. This will ensure that the portal is more usable that the previous portal as well as provide a platform for future ECM improvements.
 
 ## Work Breakdown Structure
+
 The table below provides a detailed work breakdown structure (WBS)for the migration from SP10 to SP13. As outlined in the project proposal document, the project is laid out into five separate phases: requirements, analysis and design, implementation, test, and deployment. Each one of these phases has a built-in milestone objective. Approval of the project proposal serves as a transition from phase one to phase two. The design document serves as a milestone for that phase.
 
 &&&& WBS table
@@ -26,16 +26,17 @@ For example, under phase 1, “establish migration strategy” and “determine 
 Through the analysis and design phase, there is a critical path identified. In this case, the project timeline requires that the “content inventory”, “develop governance policies”, and “develop transition training” all be completed on time. They do not provide any lead or slack time to cushion that phase.
 
 Phases three through five contain five steps that are a part of the critical path. These include “train the content managers”, “delegate responsibilities”, “re-create workflows”, “test”, and “transfer business processes”. Training content managers is the most crucial and complex step of the process. In this step, training will be provided to segments of the content manager (CM) population. Some CMs will be trained and ready to assume responsibilities earlier than others. The trained CMs will be able to start working on their portion of the portal hierarchy and content upload. This is not noted in the WBS for simplicity.
-### The timeline includes five milestones.
-1.  Project Proposal Brief
-2.  System Design Brief
-3.  CMs in control of respective sites
-4.  All critical content uploaded to SP13
-5.  Project completion  
+
+### Timeline milestones
+
+1. Project Proposal Brief
+2. System Design Brief
+3. CMs in control of respective sites
+4. All critical content uploaded to SP13
+5. Project completion
 
 &&&& WBS PH1-2
 &&&& WBS PH3-5
-
 
 ## Schedule & Dependencies
 
@@ -134,6 +135,7 @@ Global navigation will use the same approach at each subsequent echelon by focus
 Two custom site templates will be used to ensure the uniformity of site layout, general content, and features. Most sites on the portal will be used as a collaboration and storage space for work documents. These sites will use a custom template based from a SharePoint team site. They will have a shared document library, an internal document library, a calendar, a promoted links list, and a contact list. They will also have a page that displays a section banner and web-part views of the installed apps. See appendix \#5 for wireframe. The second template used will be used primarily to enable the publishing feature. This will be used to start unit landing pages. Since these pages vary widely between units, they do not contain any standard apps. Units will install them based on the needs of their unit to display information pertinent to their command’s interests.
 
 ## Documented Detailed Design…
+
 ### Permissions overview
 
 As an inward-facing portal, the NEC limits access to 3ID personnel. Although the user must use PKI authentication to log into their workstation, this login cannot be used to connect to networked resources. Each resource requires a separate logon using the same PKI approach. This ensures that unauthorized access cannot be gained through a logged on but unsupervised workstation.
@@ -167,11 +169,15 @@ The CMs will be responsible for the maintenance of permissions groups and enforc
 ## Appendices
 
 ### $$$$ PortalAssignPerm1-6
+
 ### $$$$ PortalSchema
+
 ### $$$$ Portal
+
 ### $$$$ PortalWorspaceDiagram
 
 ## References
+
 Rouse, M. (2012) Role-based access control (RBAC). Retrieved from [http://searchsecurity.techtarget.com/definition/role-based-access-control-RBAC](http://searchsecurity.techtarget.com/definition/role-based-access-control-RBAC)
 
 Booch, G., Maksimchuk, R., Engle, M., Young, B., Conallen, J., and Houston, K. (2007). *Object-oriented analysis and design with applications*. Boston: Pearson Education, Inc.
