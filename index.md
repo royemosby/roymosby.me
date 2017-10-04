@@ -1,24 +1,26 @@
 ---
 layout: page
-title: Roy Mosby's Portfolio- UNDER CONSTRUCTION
+title: Home
 published: true
-updated: 31 May, 2017
+updated: 4 Oct, 2017
 ---
 
 # About Me
 
-My name is Roy Mosby and I have been in the U.S. Army’s Signal Corps for almost 15 years. Coming up on 20 years total military service, I am preparing to retire and look into another career. I have a strong history of process improvement with focus on devising alternative strategies for streamlining routine tasks. I have also been recognized by several units for improving organizational productivity and efficiency.
+My name is Roy. After almost 20 years in the military, I am looking forward to starting a new chapter in my life. Going into web development may be a huge change but I have years of unique skills developed while serving. Most recently, I have several years experience as a SharePoint administrator. This combined with a willingness to learn and solve problems will bring value into any organization willing to invest in me.
 
-I have recently finished a Bachelor's in IT and have pursued other educational opportunities to further improve myself. In August, 2014, I attended Army Knowledge Management Course. In September of 2015, I gained Knowledge Management certification through KMPro.
+I have recently finished a Bachelor's in IT and am persuing other educational resources to improve my understanding of web technologies. I am currently enrolled in Udacity's front end web develoment nanodegree with an expected graduation of November. I know that there is much more to learn and will not stop there!
 
 During my time as a soldier, I have been a technician, team leader, and have worked in and out of my career field fulfilling a variety of roles.
 
-- **Sep 2009- Sep 2012**- Private automated branch exchange technician who oversaw installation and maintenance of Promina 400 and PABX systems, enabling deployed NATO command teams to utilize both voice and data communication systems.
+## Why the shift?
 
-- **Sep 2012- Aug 2013**- Communications team leader responsible for configuring and maintaining training networks to facilitate training for visiting multinational units.
+Going from SharePoint to web design is no small shift. I can say that my work with the ECM has inspired me to take the path towards web development using open standards.
 
-- **Aug 2013- Jan 2014**- Communications section leader responsible for the teams tasked with installation of training networks for US and international military exercises. Established and supervised teams to install operating systems, software, and network topology to support specifications required by training units.
+1. I want to create. My role as a SP admin in my organization consists mainly of configuring things- administering permissions groups, adding custom columns to lists, building workflows in SP designer, etc. All of these are mainly pointing and clicking through menus. I delight in the times that I had to find ways to make SP's interface look or behave differently. Using CSS and jQuery, I learned how to manipulate elements on a page so that they looked and behaved in a more productive manner than out of the box. Over time, I found myself wanting to do this more than working within the menus.
 
-- **Jan 2014- Oct 2015**- Provided operational support for Joint Multinational Simulation Center. Unit representative for knowledge management efforts. Responsible for coordinating resources for training units and delegating tasks assigned by higher unit.
+2. I want to work with open standards. Whether they are open source or standards set by a board, I prefer that the platform that I work with does not require any proprietarty software to access. As an admin and a web citizen, I have had run-ins with proprietary systems that excluded users simply because they did not have the right tool to access those systems. Flash, Java (especially when one needs an outdated JRE to run an applet!), Active-X, and DoD PKI implementation have all done their part through the years to impede and frustrate. Idirectly, they also inspire- there must be better more technology-agnostic means to accomplish the same goals.
 
-- **Nov 2015-Present**- Maintains SharePoint 2010 site collections on 2 networks for division staff and subordinate units, to include permissions, site layout, and content management.
+3. A system is not a goal; it is a means to an end. It should only expose the user to the level of complexity that is needed so that the user can achieve a desired outcome and no more. During my time as a SP admin, our organization hardly tapped the full potential of what SharePoint has to offer. However, because of its sheer size as an ECM, users had to deal with some needlessly confusing concepts in order to collaborate on it.
+
+By changing from an admin to a web designer, I have more control over the amount of the system I expose to the user.
