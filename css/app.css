@@ -12,7 +12,7 @@
     padding: 0.4rem .8rem;
 }
 
-
+/*_layouts*/
 /*_layouts contact.html*/
 
 .bottom-row {
@@ -24,6 +24,19 @@
 }
 
 /*end _layouts contact*/
+
+/*_includes*/
+/*_includes contact.html*/
+
+#contactModal {
+    background-color: #000;
+    color: #ccc;
+    font-size: 2em;
+}
+
+#contactModal ul{
+    list-style: none;
+}
 
 /*_includes header.html*/
 
