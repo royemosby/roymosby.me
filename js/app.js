@@ -1,3 +1,6 @@
+var proj = $(".reflection").attr("id");
+$(".projToggle").attr("data-open",proj);
+
 //append #markdown-toc to #projectNav, add Foundation details
 $("#markdown-toc").detach().appendTo("#projectNav");
 $("#markdown-toc").addClass("vertical menu accordion-menu");
