@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Roy Mosby's Resume- UNDER CONSTRUCTION
+title: Resume
 published: true
 updated: 31 May, 2017
 ---
@@ -14,15 +14,6 @@ updated: 31 May, 2017
 
 Bachelor's in IT with a background in content management and SharePoint site collection administration. Strong history of process improvement with focus on devising alternative strategies for streamlining routine tasks. Recognized for improving organizational productivity and efficiency.
 
-## Education
-
-**May 2017** University of New Hampshire
-*Bachelors of Information Technology: GPA 3.69*
-
-**Sep 2015** KMPro Knowledge Management Certification Course
-
-**Aug 2014** Army Knowledge Management Course
-
 ## Experience
 
 **Nov 2015-Present**- Maintains SharePoint 2010 site collections on 2 networks for division staff and subordinate units, to include permissions, site layout, and content management.
@@ -34,3 +25,12 @@ Bachelor's in IT with a background in content management and SharePoint site col
 **Sep 2012- Aug 2013**- Communications team leader responsible for configuring and maintaining training networks to facilitate training for visiting multinational units.
 
 **Sep 2009- Sep 2012**- Private automated branch exchange technician who oversaw installation and maintenance of Promina 400 and PABX systems, enabling deployed NATO command teams to utilize both voice and data communication systems.
+
+## Education
+
+**May 2017** University of New Hampshire
+*Bachelors of Information Technology: GPA 3.69*
+
+**Sep 2015** KMPro Knowledge Management Certification Course
+
+**Aug 2014** Army Knowledge Management Course
