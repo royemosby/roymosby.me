@@ -6,6 +6,18 @@ published: true
 updated: 31 May, 2017
 ---
 
+<div class="large reveal reflection" id="portalclosure" data-reveal>
+<h1>Portal Closure Document</h1>
+<h3>Intranet portal migration from SharePoint 2010 to 2013</h3>
+<p>This project focused on the construction and transition phases of the migration, in particular, the final outcomes of the project. It demonstrates my ability to execute on a plan while maintaining the flexibility to make needed adjustments. The distributed nature of this project meant that I had to delegate many of the tasks to the subordinate units then follow-up to ensure completion. It further demonstrates the communication skills necessary to brief stakeholders on progress throughout the latter half of the SDLC.</p>
+
+<p>While I provide the document in full, I feel verification plan found in the latter half of the document is the most important part. I use this to outline the approaches used during this project to explain my approach to verify the completion of requirements and deal with changes as they are presented. Since this project had a large footprint (it covered a division staff, five brigades and its subordinate units, several tenant battalions, across two posts) I could not follow up directly with each stakeholder. I instead had to delegate this task to content management reps found at various locations through the command. This section also captures the approach used to capture and process feedback throughout implementation. </p>
+
+<p>During the creation of this document, I learned the importance of addressing follow-on issues. These could be suggested changes that could not be incorporated into the project (access to the portal from outside the 3ID domain) or issues that had to be addressed separately from the project (both search and web services stopped working but they fell under the purview of the NEC since they handle farm administration). I also discovered that it was important to address support after the project completed and transition into an indefinite maintenance phase. Being able to address these details ensured that there was a clear plan in place for continued support after the completion of the project.</p>
+
+    <button class="close-button" data-close aria-label="Close modal" type="button"><span aria-hidden="true">&times;</span>
+    </button>
+</div>
 
 ## Introduction
 

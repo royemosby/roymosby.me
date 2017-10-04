@@ -5,6 +5,24 @@ project: artifact
 published: true
 updated: 31 May, 2017
 ---
+
+<div class="large reveal reflection" id="portalDesign" data-reveal>
+<h1>Portal Design</h1>
+<h3>Intranet portal migration from SharePoint 2010 to 2013</h3>
+<p>This project is unique from the others in my portfolio because it is a real-world application of skills developed up to that point. I had the luck that this project executed roughly on the same timeline as IT415 and IT420, from October 2016 to February 2017. My IT capstone classes focused on the SDLC- IT415 addressing inception and elaboration phases while IT420 focused on the construction and transition phases.</p>
+
+<p>This artifact illustrates my communication skills as it involved reaching out to stakeholders to share timelines and requirements. In turn, I collected their feedback in the form of their needs, constraints, and limitations then integrated these elements into a course of comprehensive action presented to leadership for approval.</p>
+
+<p>While the capstone focused on learned skills and not developing new, I gained new insights to the complexities of IT project development. In particular, communication in an distributed, ever-moving environment is a challenge. The hardest part of this project was being able to reliably communicate with all the subordinate units who had differing training schedules. At times, certain units would not receive a request for information or choose not to act in a timely manner on it. They would then be out of sync with the the progress made up to that point.</p>
+
+<p>When the project focus had moved elsewhere, those behind would try to get the shareholders to circle back to an issue that was already addressed and closed for consideration. At points like this, the workgroup emphasized the importance of moving the timeline forward and only stoped with a significant exception arose. Only one such exception came up- that of catching up a unit that had recently came off of deployment after the project started.</p>
+
+<p>Looking back on this project, I would have engaged official communications channels more to get more involvement from the subordinate units. As it stood, only one operational order (OPORD) was delivered addressing the timeline and the requirements of the subordinate units. In hindsight, this OPORD needed to be followed up by continuous fragmentary orders (FRAGORD) outlining more specific details and provide changes to the timeline as needed. The FRAGORDs, because of their nature, would have put the units under additional scrutiny of the Division staff, compelling them to give the project the attention it needed.</p>
+
+    <button class="close-button" data-close aria-label="Close modal" type="button"><span aria-hidden="true">&times;</span>
+    </button>
+</div>
+
 ## Design Introduction
 
 The 3rd Infantry Division’s (3ID) unclassified SharePoint (SP) 2010 portal will be upgraded to SP 2013. The SP in place services the division staff, two brigade combat teams, an aviation brigade, division artillery, a support brigade, and several co-located units. It consists of over 40 site collections each of which contain nested sub-sites organized to reflect the division’s organization chart. SP’s primary use is as an ECM, providing storage and workspace for various operational and administrative documents. Calendars and custom lists are implemented across SP based on the needs and skill levels of the units using them. SP workflows have also been adopted to support certain business processes, particularly as help-desk systems and HR functions.

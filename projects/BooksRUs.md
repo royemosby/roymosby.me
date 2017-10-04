@@ -3,8 +3,29 @@ layout: project
 title: Books-R-Us
 project: artifact
 published: true
-updated: 31 May, 2017
+updated: 4 Oct, 2017
 ---
+
+<div class="large reveal reflection" id="booksrus" data-reveal>
+<h1>Book'r'Us</h1><h3> IT431 Distributed Systems</h3>
+
+<p>This project is a recommendation for an inventory management system (IMS) made in anticipation of a regional expansion of Books-R-Us, a fictitious company. It is a final project submitted for IT431-Software Development for Distributed Systems in August-September of 2016. The project focuses on the distributed nature of the IMS and includes business process use cases and addresses security concerns for internal database transactions and external customer purchase transactions.
+This project built on my understanding of the system development lifecycle(SDLC) and introduced challenges that one has to address in distributed systems:</p>
+<ul>
+    <li>heterogeneity</li>
+    <li>openness</li>
+    <li>security</li>
+    <li>scalability</li>
+    <li>failure handling</li>
+    <li>concurrency</li>
+    <li>transparency</li>
+    <li>quality of service</li>
+</ul>
+<p>Were I to approach this project again, I would create a proof-of-concept as a deliverable to demonstrate the workings of the system. A paired down version would include two differing web stacks and a shared database- one web-stack would be for employees and the other for customers.</p>
+
+    <button class="close-button" data-close aria-label="Close modal" type="button"><span aria-hidden="true">&times;</span>
+    </button>
+</div>
 
 ## Introduction
 
@@ -103,6 +124,7 @@ Oracle. (2012) *Your first cup*. Retrieved from [http://docs.oracle.com/javaee/6
 TestOut. (2016). *10.6.2 wireless security facts* [PDF document]. Retrieved from [https://cdn.testout.com ](https://cdn.testout.com)
 
 Tremblett, P. (2001). *Instant enterprise Java Beans*. McGraw-Hill: United States.
+
 
 * TOC
 {:toc}
