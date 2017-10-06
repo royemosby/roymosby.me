@@ -10,6 +10,8 @@ updated: 2 Oct, 2017
     <h1>Responsive Resumé</h1>
     <h3>Udacity project</h3>
 
+    <p>The main point that is project drove home for me is that, where possible, focus on developing for mobile and then desktop. Mobile devices are becoming both more powerful and easier to access as time goes on. Mobile is displacing the preeminence of desktop computing in our lives. It does not eliminate the desktop experience since mobile does not fare well with extended input. However, most sites' priority is to get information in front of a user. Because of this, ease of access should prioritize mobile.</p>
+
     <button class="close-button" data-close aria-label="Close modal" type="button"><span aria-hidden="true">&times;</span>
     </button>
 </div>
@@ -17,6 +19,8 @@ updated: 2 Oct, 2017
 ## Responsive Resumé
 
 ### Udacty front end nanodegree project
+
+For this project I was required to produce an HTML5- compliant website using semantic elements including `<header>`, `<footer>`, `<article>`, etc. Aside from free choice in graphics, font and color, the desktop site had to follow a design layout provided in a comp. This site then had to use media queries to adjust how it displayed on devices of varying sizes so that it maintained usability and attractiveness.
 
 #### [Link to project](http://roymosby.me/FEND/Section2_Portfolio/portfolio.html)
 
