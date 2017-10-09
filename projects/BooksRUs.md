@@ -8,7 +8,7 @@ updated: 4 Oct, 2017
 
 <div class="large reveal reflection" id="booksrus" data-reveal>
 <h1>Book'r'Us</h1><h3> IT431 Distributed Systems</h3>
-
+<h4>Oct, 2016</h4>
 <p>This project is a recommendation for an inventory management system (IMS) made in anticipation of a regional expansion of Books-R-Us, a fictitious company. It is a final project submitted for IT431-Software Development for Distributed Systems in August-September of 2016. The project focuses on the distributed nature of the IMS and includes business process use cases and addresses security concerns for internal database transactions and external customer purchase transactions.
 This project built on my understanding of the system development lifecycle(SDLC) and introduced challenges that one has to address in distributed systems:</p>
 <ul>
@@ -26,8 +26,10 @@ This project built on my understanding of the system development lifecycle(SDLC)
     <button class="close-button" data-close aria-label="Close modal" type="button"><span aria-hidden="true">&times;</span>
     </button>
 </div>
+<h4>Oct, 2016</h4>
 
 ## Introduction
+
 
 Book-R-Us is a private business that sells books at two locations in the Northeast. They plan to expand operations to 10 different facilities across New England in the next 5 years. With the expansion of operations, they have identified that their current sales and inventory management system- SIMS- will not scale. In addition, they wish to increase the system’s capabilities to include e-commerce, online book ordering for pick-up, and inter-store supply-chain communication. This move will address operational concerns and management feels that it will put it on competitive grounds with online competitors such as Amazon.com.
 
