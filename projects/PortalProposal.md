@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Portal Proposal
+title: Intranet Portal Migration Proposal
 project: artifact
 published: true
 updated: 31 May, 2017
@@ -9,6 +9,7 @@ updated: 31 May, 2017
 <div class="large reveal reflection" id="portalProposal" data-reveal>
 <h1>Portal proposal</h1>
 <h3>Intranet portal migration from SharePoint 2010 to 2013</h3>
+<h4>winter of 2016-2017</h4>
 <p>This project is unique from the others in my portfolio because it is a real-world application of skills developed up to that point. I had the luck that this project executed roughly on the same timeline as IT415 and IT420, from October 2016 to February 2017. My IT capstone classes focused on the SDLC- IT415 addressing inception and elaboration phases while IT420 focused on the construction and transition phases.</p>
 
 <p>This artifact illustrates my communication skills as it involved reaching out to stakeholders to share timelines and requirements. In turn, I collected their feedback in the form of their needs, constraints, and limitations then integrated these elements into a course of comprehensive action presented to leadership for approval.</p>
@@ -22,8 +23,11 @@ updated: 31 May, 2017
     <button class="close-button" data-close aria-label="Close modal" type="button"><span aria-hidden="true">&times;</span>
     </button>
 </div>
+<h4>winter of 2016-2017</h4>
 
 ## Problem Statement
+
+
 
 The 3rd Infantry Division’s (3ID) unclassified SharePoint (SP) 2010 portal will be upgraded to SP 2013. The portal services the division staff, two brigade combat teams, an aviation brigade, division artillery, a support brigade, and several co-located units. It consists of over 40 site collections each of which contain nested sub-sites organized to reflect the division’s organization chart. The portal’s primary use is as an ECM, providing storage and workspace for various operational and administrative documents. Calendars and custom lists are implemented across the portal based on the needs and skill levels of the units using them. SP workflows have also been adopted to support certain business processes, particularly as help-desk systems and HR functions.
 
@@ -69,27 +73,49 @@ The stakeholder workgroup has outlined several goals to be reached to consider t
 
 **\#1) Provide a consistent set of features across all the site collections and sites.**
 
-&&&& Table
+<table>
+<tr><td>Objective</td><td>Owner</td><td>Time Complete</td></tr>
+<tr><td>Establish site collections</td><td>NEC</td><td>Pre-project</td></tr>
+<tr><td>Enable basic enterprise features</td><td>PM</td><td>Pre-project</td></tr>
+<tr><td>Enable publishing</td><td>PM</td><td>Pre-project</td></tr>
+</table>
 
 **\#2) Decrease the burden of site collection administration through consolidation.**
 *metric: site collection number decreased by at least 75%.*
 
 The migration team will examine the current portal structure to consolidate as many site collections as possible. Considerations will include the topological organization of the command, the amount of data generated inside each section, and the amount of traffic each section receives.
 
-&&&& Table
+<table>
+<tr><td>Objective</td><td>Owner</td><td>Time Complete</td></tr>
+<tr><td>Determine best layout</td><td>PM/ stakeholders</td><td>Pre-project</td></tr>
+<tr><td>Establish site collections</td><td>NEC</td><td>Pre-project</td></tr>
+<tr><td>Translate organizational hierarchy to site structure</td><td>PM</td><td>Pre-project</td></tr>
+<tr><td>Establish sub-sites based on planned site structure</td><td>CMs</td><td>Implementation phase</td></tr>
+</table>
 
 **\#3) Provide a consistent user experience across all sites though uniform layouts.**
 *metric: 15% increased portal traffic*
 
 Consistent user experience will be provided using pre-populated publishing site and team site templates. They will provide a similar set of apps so that each site is intuitively used in a similar manner across the entire portal.
 
-&&&&Table
+<table>
+<tr><td>Objective</td><td>Owner</td><td>Time Complete</td></tr>
+<tr><td>Determine baseline/ inter-organizational information needs</td><td>PM/ stakeholders</td><td>Requirements phase</td></tr>
+<tr><td>Create site templates</td><td>PM</td><td>Analysis and design phase</td></tr>
+<tr><td>Establish subsites using templates</td><td>CMs</td><td>Implementation phase</td></tr>
+</table>
 
  **\#4) Provide a brand standardization for current and future sites.**
 
 Closely tied to the site templates, master pages will provide styling that provides a professional look and feel.
 
-&&&&Table
+<table>
+<tr><td>Objective</td><td>Owner</td><td>Time Complete</td></tr>
+<tr><td>Determine brand standard</td><td>PM/ stakeholders</td><td>Requirements phase</td></tr>
+<tr><td>Develop HTML/ CSS for master pages</td><td>PM</td><td>Analysis and design phase</td></tr>
+<tr><td>Develop HTML/ CSS for web parts</td><td>PM</td><td>Analysis and design phase</td></tr>
+<tr><td>Implement master pages</td><td>PM</td><td>Implementation phase</td></tr>
+</table>
 
 **\#5) Users should have an easy time finding reliable content.**
 
@@ -99,7 +125,14 @@ Portal governance will be established by the migration team and then enforced by
 
 Efforts will be put into a thorough content inventory to include documents, lists and calendar entries, and workflows. As items are identified, they will go through a screening process to ensure that only information of value makes it through the migration. All suitable content will be backed up on local admin computers, then ported over to the new SP as sites become available.
 
-&&&&Table
+<table>
+<tr><td>Objective</td><td>Owner</td><td>Time Complete</td></tr>
+<tr><td>Develop CM policies</td><td>PM</td><td>Requirements phase</td></tr>
+<tr><td>Develop CM training</td><td>PM/ stakeholders</td><td>Analysis and design phase</td></tr>
+<tr><td>Train CMs</td><td>PM</td><td>Pre-analysis phase</td></tr>
+<tr><td>Content inventory</td><td>CMs</td><td>Analysis and design phase</td></tr>
+<tr><td>Content migration</td><td>CMs</td><td>Implementation phase</td></tr>
+</table>
 
 ## Deliverables
 
@@ -123,7 +156,16 @@ The project will use several different methodologies as appropriate for each one
 
 ## Risks
 
-&&&&ProjRisksTable
+**List any factors that may cause a failure to complete project tasks. Include all risks identified or recurring during this reporting period.**
+
+<table>
+<tr><td>Risk Description</td><td>Probability of Occurrence (%)</td><td>Risk Tolerance Level (Low/ Medium/ High)</td><td>Mitigation Strategy</td><td>Mitigation Status (Planned/ In Progress)</td><td>Owner</td></tr>
+<tr><td>Organizational inertia: too much time can be spent coordinating the plan to do a thorough content inventory and backup</td><td>90%</td><td>Low</td><td>Do not rely on status qua mechanisms to disseminate transition plan.  Broaden the channels of initial communication.</td><td>Established</td><td>Division KM/ Divions CM </td></tr>
+<tr><td>Lack of situational comprehension on the part of stakeholders: they may disregard or overlook the tight timeline to move from one ECM to another and not apply appropriate effort to the transition</td><td>50%</td><td>Low</td><td>Establish bidirectional channels of communication to receive feedback and provide disambiguation.  </td><td>Established</td><td>Division KM</td></tr>
+<tr><td>Confusion on roles and responsibility: some stakeholders may assume that subordinates are going to take care of their section without need for supervision</td><td>25%</td><td>Low</td><td>Establish roles with assignments by name</td><td>Established</td><td>Division KM</td></tr>
+<tr><td>User resistance: some users do not like technological change</td><td>10%</td><td>High</td><td>Provide training resources</td><td>In progress</td><td>Division CM</td></tr>
+<tr><td>Insufficient governance plan: certain problems found on the older ECM may re-emerge</td><td>50%</td><td>Medium</td><td>Incorporate governance into roles assignment</td><td>In progress</td><td>Division CM</td></tr>
+</table>
 
 The breadth and scope of the project prevents the PM and the primary stakeholders from being able to control all aspects of implementation of the project. It is expected that some CMs will receive incorrect information or will not be able to follow a provided plan to its fullest. However, all risks will be mitigated to minimize this type of impact.
 

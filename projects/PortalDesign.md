@@ -9,6 +9,7 @@ updated: 31 May, 2017
 <div class="large reveal reflection" id="portalDesign" data-reveal>
 <h1>Portal Design</h1>
 <h3>Intranet portal migration from SharePoint 2010 to 2013</h3>
+<h4>winter of 2016-2017</h4>
 <p>This project is unique from the others in my portfolio because it is a real-world application of skills developed up to that point. I had the luck that this project executed roughly on the same timeline as IT415 and IT420, from October 2016 to February 2017. My IT capstone classes focused on the SDLC- IT415 addressing inception and elaboration phases while IT420 focused on the construction and transition phases.</p>
 
 <p>This artifact illustrates my communication skills as it involved reaching out to stakeholders to share timelines and requirements. In turn, I collected their feedback in the form of their needs, constraints, and limitations then integrated these elements into a course of comprehensive action presented to leadership for approval.</p>
@@ -22,8 +23,10 @@ updated: 31 May, 2017
     <button class="close-button" data-close aria-label="Close modal" type="button"><span aria-hidden="true">&times;</span>
     </button>
 </div>
+<h4>winter of 2016-2017</h4>
 
 ## Design Introduction
+
 
 The 3rd Infantry Division’s (3ID) unclassified SharePoint (SP) 2010 portal will be upgraded to SP 2013. The SP in place services the division staff, two brigade combat teams, an aviation brigade, division artillery, a support brigade, and several co-located units. It consists of over 40 site collections each of which contain nested sub-sites organized to reflect the division’s organization chart. SP’s primary use is as an ECM, providing storage and workspace for various operational and administrative documents. Calendars and custom lists are implemented across SP based on the needs and skill levels of the units using them. SP workflows have also been adopted to support certain business processes, particularly as help-desk systems and HR functions.
 
@@ -33,7 +36,66 @@ The 3rd Infantry Division’s (3ID) unclassified SharePoint (SP) 2010 portal wil
 
 The table below provides a detailed work breakdown structure (WBS)for the migration from SP10 to SP13. As outlined in the project proposal document, the project is laid out into five separate phases: requirements, analysis and design, implementation, test, and deployment. Each one of these phases has a built-in milestone objective. Approval of the project proposal serves as a transition from phase one to phase two. The design document serves as a milestone for that phase.
 
-&&&& WBS table
+*Note: this table is has horizontal-scroll enabled on narrower screens*
+
+<div class="table-scroll">
+<table>
+<tr><td>Task #</td><td>WBS</td><td>Name</td><td>Duration</td><td>Start</td><td>Finish</td><td>Predecessors</td></tr>
+<tr><td>1</td><td>1</td><td>Phase 1: Requirements</td><td>16d</td><td>10/24/16</td><td>11/14/16</td><td></td></tr>
+<tr><td>2</td><td>1.1</td><td>Determine structure</td><td>2d</td><td>10/24/16</td><td>10/25/16</td><td></td></tr>
+<tr><td>3</td><td>1.1.1</td><td>Site collection needs</td><td>2d</td><td>10/24/16</td><td>10/25/16</td><td></td></tr>
+<tr><td>4</td><td>1.1.2</td><td>Site hierarchy</td><td>1d</td><td>10/24/16</td><td>10/24/16</td><td></td></tr>
+<tr><td>5</td><td>1.2</td><td>Determine critical features</td><td>2d</td><td>10/26/16</td><td>10/27/16</td><td>2</td></tr>
+<tr><td>6</td><td>1.3</td><td>Identify content needs</td><td>2d</td><td>10/26/16</td><td>10/27/16</td><td>2</td></tr>
+<tr><td>7</td><td>1.3.1</td><td>Unit landing sites</td><td>2d</td><td>10/26/16</td><td>10/27/16</td><td></td></tr>
+<tr><td>8</td><td>1.3.2</td><td>Staff collaboration sites</td><td>2d</td><td>10/26/16</td><td>10/27/16</td><td></td></tr>
+<tr><td>9</td><td>1.4</td><td>Establish migration strategy</td><td>2.5d</td><td>10/28/16</td><td>11/1/16</td><td>2/5/06</td></tr>
+<tr><td>10</td><td>1.5</td><td>Determine branding standards</td><td>2d</td><td>10/28/16</td><td>10/31/16</td><td>2/5/06</td></tr>
+<tr><td>11</td><td>1.6</td><td>Project Proposal Document</td><td>2d</td><td>11/11/16</td><td>11/14/16</td><td>2/5/6/9/10</td></tr>
+<tr><td>12</td><td>2</td><td>Phase 2: Analysis and design</td><td>19d</td><td>11/15/16</td><td>12/9/16</td><td>1</td></tr>
+<tr><td>13</td><td>2.1</td><td>Content inventory</td><td>5d</td><td>11/15/16</td><td>11/21/16</td><td></td></tr>
+<tr><td>14</td><td>2.1.1</td><td>ID critical information</td><td>5d</td><td>11/15/16</td><td>11/21/16</td><td></td></tr>
+<tr><td>18</td><td>2.1.2</td><td>Remove old/inaccurate/obsolete</td><td>5d</td><td>11/15/16</td><td>11/21/16</td><td></td></tr>
+<tr><td>19</td><td>2.2</td><td>Develop site templates</td><td>7d</td><td>11/15/16</td><td>11/23/16</td><td></td></tr>
+<tr><td>20</td><td>2.2.1</td><td>Survey content type usage</td><td>3d</td><td>11/15/16</td><td>11/17/16</td><td></td></tr>
+<tr><td>21</td><td>2.2.2</td><td>Identify trends</td><td>1d</td><td>11/18/16</td><td>11/18/16</td><td>20</td></tr>
+<tr><td>22</td><td>2.2.3</td><td>Establish common content/ list model</td><td>1d</td><td>11/21/16</td><td>11/21/16</td><td>21</td></tr>
+<tr><td>26</td><td>2.2.4</td><td>Develop unit landing site template</td><td>2d</td><td>11/22/16</td><td>11/23/16</td><td>22</td></tr>
+<tr><td>30</td><td>2.2.5</td><td>Develop staff collaboration site template</td><td>2d</td><td>11/22/16</td><td>11/23/16</td><td>22</td></tr>
+<tr><td>34</td><td>2.3</td><td>Develop governance policies</td><td>10d</td><td>11/15/16</td><td>11/28/16</td><td></td></tr>
+<tr><td>35</td><td>2.3.1</td><td>Permissions schema</td><td>1d</td><td>11/15/16</td><td>11/15/16</td><td></td></tr>
+<tr><td>36</td><td>2.3.1.1</td><td>Roles</td><td>1d</td><td>11/15/16</td><td>11/15/16</td><td></td></tr>
+<tr><td>37</td><td>2.3.1.2</td><td>Groups</td><td>1d</td><td>11/15/16</td><td>11/15/16</td><td></td></tr>
+<tr><td>38</td><td>2.3.2</td><td>Content management</td><td>5d</td><td>11/22/16</td><td>11/28/16</td><td>13</td></tr>
+<tr><td>39</td><td>2.3.3</td><td>Delegation of responsibility</td><td>5d</td><td>11/15/16</td><td>11/21/16</td><td></td></tr>
+<tr><td>42</td><td>2.4</td><td>Develop transition training</td><td>3d</td><td>11/29/16</td><td>12/1/16</td><td>19/34</td></tr>
+<tr><td>47</td><td>2.5</td><td>Develop branding</td><td>5d</td><td>11/15/16</td><td>11/21/16</td><td></td></tr>
+<tr><td>50</td><td>2.6</td><td>System design document</td><td>6d</td><td>12/2/16</td><td>12/9/16</td><td>13/19/34/42/47</td></tr>
+<tr><td>51</td><td>3</td><td>Winter break</td><td>16d</td><td>12/12/16</td><td>1/2/17</td><td>12</td></tr>
+<tr><td>52</td><td>4</td><td>Phase 3: Implementation</td><td>25d</td><td>1/3/17</td><td>2/6/17</td><td>51</td></tr>
+<tr><td>53</td><td>4.1</td><td>Establish site collections</td><td>2d</td><td>1/3/17</td><td>1/4/17</td><td></td></tr>
+<tr><td>54</td><td>4.2</td><td>Create second level sites</td><td>3d</td><td>1/5/17</td><td>1/9/17</td><td>53</td></tr>
+<tr><td>57</td><td>4.3</td><td>Implement permissions schema</td><td>4d</td><td>1/10/17</td><td>1/13/17</td><td>54</td></tr>
+<tr><td>58</td><td>4.3.1</td><td>Create site collection and 2nd lvl site permissions groups</td><td>4d</td><td>1/10/17</td><td>1/13/17</td><td></td></tr>
+<tr><td>59</td><td>4.3.2</td><td>Assign site permissions roles to permissions groups</td><td>4d</td><td>1/10/17</td><td>1/13/17</td><td></td></tr>
+<tr><td>60</td><td>4.4</td><td>Train content managers</td><td>14d</td><td>1/3/17</td><td>1/20/17</td><td></td></tr>
+<tr><td>61</td><td>4.5</td><td>Delegate responsibilities to CMs</td><td>2d</td><td>1/23/17</td><td>1/24/17</td><td>60</td></tr>
+<tr><td>64</td><td>4.6</td><td>Create full portal hierarchy</td><td>4d</td><td>1/25/17</td><td>1/30/17</td><td>61</td></tr>
+<tr><td>68</td><td>4.7</td><td>Migrate Content</td><td>25d</td><td>1/3/17</td><td>2/6/17</td><td></td></tr>
+<tr><td>69</td><td>4.7.1</td><td>Backup content from SP10</td><td>7d</td><td>1/3/17</td><td>1/11/17</td><td></td></tr>
+<tr><td>73</td><td>4.7.2</td><td>Upload content to SP13</td><td>5d</td><td>1/31/17</td><td>2/6/17</td><td>64</td></tr>
+<tr><td>79</td><td>4.8</td><td>Deploy branding</td><td>1d</td><td>1/10/17</td><td>1/10/17</td><td>54</td></tr>
+<tr><td>82</td><td>5</td><td>Phase 4: Test</td><td>5d</td><td>2/7/17</td><td>2/13/17</td><td>52</td></tr>
+<tr><td>83</td><td>5.1</td><td>Verify hierarchy completeness</td><td>5d</td><td>2/7/17</td><td>2/13/17</td><td></td></tr>
+<tr><td>84</td><td>5.2</td><td>Verify permissions implementation</td><td>5d</td><td>2/7/17</td><td>2/13/17</td><td></td></tr>
+<tr><td>85</td><td>5.3</td><td>Verify content transfer</td><td>5d</td><td>2/7/17</td><td>2/13/17</td><td></td></tr>
+<tr><td>86</td><td>5.4</td><td>Verify master page/ web-part styles usability</td><td>5d</td><td>2/7/17</td><td>2/13/17</td><td></td></tr>
+<tr><td>87</td><td>5.5</td><td>Address issues</td><td>5d</td><td>2/7/17</td><td>2/13/17</td><td></td></tr>
+<tr><td>88</td><td>6</td><td>Phase5: Deployment</td><td>10d</td><td>2/14/17</td><td>2/27/17</td><td>82</td></tr>
+<tr><td>89</td><td>6.1</td><td>Provide users with access</td><td>5d</td><td>2/14/17</td><td>2/20/17</td><td></td></tr>
+<tr><td>90</td><td>6.2</td><td>Transfer business processes</td><td>10d</td><td>2/14/172/27/17</td><td></td></tr>
+</table>
+</div>
 
 ## Timeline
 
@@ -45,7 +107,7 @@ Through the analysis and design phase, there is a critical path identified. In t
 
 Phases three through five contain five steps that are a part of the critical path. These include “train the content managers”, “delegate responsibilities”, “re-create workflows”, “test”, and “transfer business processes”. Training content managers is the most crucial and complex step of the process. In this step, training will be provided to segments of the content manager (CM) population. Some CMs will be trained and ready to assume responsibilities earlier than others. The trained CMs will be able to start working on their portion of the portal hierarchy and content upload. This is not noted in the WBS for simplicity.
 
-### Timeline milestones
+**Timeline milestones**
 
 1. Project Proposal Brief
 2. System Design Brief
@@ -53,8 +115,13 @@ Phases three through five contain five steps that are a part of the critical pat
 4. All critical content uploaded to SP13
 5. Project completion
 
-&&&& WBS PH1-2
-&&&& WBS PH3-5
+**WBS Phases 1 and 2**
+
+![](/images/WBS-Ph1-2.png)
+
+**WBS Phases 3-5**
+
+![](/images/WBS-Ph3-5.png)
 
 ## Schedule & Dependencies
 
@@ -186,13 +253,10 @@ The CMs will be responsible for the maintenance of permissions groups and enforc
 
 ## Appendices
 
-### $$$$ PortalAssignPerm1-6
+<div class="responsive-embed">
+	<iframe width="420" height="315" src="/presentations/portal-design.html" frameborder="1"></iframe>
+</div>
 
-### $$$$ PortalSchema
-
-### $$$$ Portal
-
-### $$$$ PortalWorspaceDiagram
 
 ## References
 
