@@ -117,11 +117,11 @@ Phases three through five contain five steps that are a part of the critical pat
 
 **WBS Phases 1 and 2**
 
-![](/images/WBS-Ph1-2.png)
+![Work breakdown structure phases 1 and 2](/images/WBS-Ph1-2.png)
 
 **WBS Phases 3-5**
 
-![](/images/WBS-Ph3-5.png)
+![Work breakdown structure phases 3 through 5](/images/WBS-Ph3-5.png)
 
 ## Schedule & Dependencies
 

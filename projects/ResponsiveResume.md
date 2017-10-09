@@ -33,7 +33,7 @@ For this project I was required to produce an HTML5- compliant website using sem
         <div class="card-divider">
             Desktop preview
         </div>
-        <img src="/images/ResponsiveFull.jpeg">
+        <img src="/images/ResponsiveFull.jpeg" alt="responsive web project desktop preview">
         <div class="card-section">
         </div>
         </div>
@@ -43,7 +43,7 @@ For this project I was required to produce an HTML5- compliant website using sem
         <div class="card-divider">
             Mobile preview
         </div>
-        <img src="/images/ResponsiveMob.jpeg">
+        <img src="/images/ResponsiveMob.jpeg" alt="responsive web project mobile preview">
         <div class="card-section">
         </div>
 </div>

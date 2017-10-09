@@ -32,7 +32,7 @@ In this project I was provided an HTML/ CSS template, a Javascript helper file, 
         <div class="card-divider">
             Desktop preview
         </div>
-        <img src="/images/TemplResume.jpeg">
+        <img src="/images/TemplResume.jpeg" alt="templated resume project desktop preview">
         <div class="card-section">
         </div>
         </div>
@@ -42,7 +42,7 @@ In this project I was provided an HTML/ CSS template, a Javascript helper file, 
         <div class="card-divider">
             Mobile preview
         </div>
-        <img src="/images/TemplResumeMob.jpeg">
+        <img src="/images/TemplResumeMob.jpeg" alt="templated resume project mobile preview">
         <div class="card-section">
         </div>
 </div>
