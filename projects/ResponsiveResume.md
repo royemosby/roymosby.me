@@ -1,22 +1,25 @@
 ---
 layout: project
-title: Responsive Resumé
+title: Responsive Resume
 project: artifact
 published: true
 updated: 2 Oct, 2017
 ---
 
 <div class="large reveal reflection" id="responsiveResume" data-reveal>
-    <h1>Responsive Resumé</h1>
+    <h1>Responsive Resume</h1>
     <h3>Udacity project</h3>
+    <h4>Jul, 2017</h4>
 
-    <p>The main point that is project drove home for me is that, where possible, focus on developing for mobile and then desktop. Mobile devices are becoming both more powerful and easier to access as time goes on. Mobile is displacing the preeminence of desktop computing in our lives. It does not eliminate the desktop experience since mobile does not fare well with extended input. However, most sites' priority is to get information in front of a user. Because of this, ease of access should prioritize mobile.</p>
+    <p>The main point that is project drove home for me is that, where possible, focus on developing for mobile and then desktop. Mobile devices are becoming both more powerful and easier to access as time goes on. Mobile is displacing the preeminence of desktop computing in our lives. It does not eliminate the desktop experience since mobile does not fare well with extended input. However, most sites' priority is to get information in front of a user. Because of this, ease of access should prioritize mobile development.</p>
 
     <button class="close-button" data-close aria-label="Close modal" type="button"><span aria-hidden="true">&times;</span>
     </button>
 </div>
+<h4>Jul, 2017</h4>
 
-## Responsive Resumé
+
+## Responsive Resume
 
 ### Udacty front end nanodegree project
 
@@ -32,8 +35,6 @@ For this project I was required to produce an HTML5- compliant website using sem
         </div>
         <img src="/images/ResponsiveFull.jpeg">
         <div class="card-section">
-            <h4>This is a card.</h4>
-            <p>It has an easy to override visual style, and is appropriately subdued.</p>
         </div>
         </div>
     </div>
@@ -44,7 +45,5 @@ For this project I was required to produce an HTML5- compliant website using sem
         </div>
         <img src="/images/ResponsiveMob.jpeg">
         <div class="card-section">
-            <h4>This is a card.</h4>
-            <p>It has an easy to override visual style, and is appropriately subdued.</p>
         </div>
 </div>
