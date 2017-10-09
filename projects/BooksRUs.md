@@ -30,8 +30,7 @@ This project built on my understanding of the system development lifecycle(SDLC)
 
 ## Introduction
 
-
-Book-R-Us is a private business that sells books at two locations in the Northeast. They plan to expand operations to 10 different facilities across New England in the next 5 years. With the expansion of operations, they have identified that their current sales and inventory management system- SIMS- will not scale. In addition, they wish to increase the system’s capabilities to include e-commerce, online book ordering for pick-up, and inter-store supply-chain communication. This move will address operational concerns and management feels that it will put it on competitive grounds with online competitors such as Amazon.com.
+Book-R-Us is a (fictitious) private business that sells books at two locations in the Northeast. They plan to expand operations to 10 different facilities across New England in the next 5 years. With the expansion of operations, they have identified that their current sales and inventory management system- SIMS- will not scale. In addition, they wish to increase the system’s capabilities to include e-commerce, online book ordering for pick-up, and inter-store supply-chain communication. This move will address operational concerns and management feels that it will put it on competitive grounds with online competitors such as Amazon.com.
 
 Below includes a list of functional and non-functional requirements. Functional requirements include all of the basic processes or tasks that a system is required to provide (Dennis, Wixon, and Tegarden, 2005) independent of the software or hardware used. Non-functional requirements describe how the system will act (Eriksson, 2012) which also includes performance characteristics.
 
@@ -68,9 +67,10 @@ The separation of the database from the web server indicates that the SIMS will 
 Though it could be approached at a two-tier, client-server system, providing an intermediary tier offloads some of the effort from the DBMS. Common queries can be cached on the web server and served up from there instead of forwarding the query all the way to the DBMS. The separation also allows for more robust error handling. Instead of the DBMS having to deal with how to deal with query errors, the burden can lay with the web server.
 
 ## Architectural model- requirements
- Several different use cases will illustrate the network and security needs. They will include four basic users- customer, manager, POS clerk, and inventory specialist.
 
-&&&& Use Case
+Several different use cases will illustrate the network and security needs. They will include four basic users- customer, manager, POS clerk, and inventory specialist.
+
+![use case diagram](/images/UseCase.png)
 
 ## Network setup
 
@@ -80,7 +80,7 @@ Each LAN will provide the location with connectivity and speed to support daily 
 
 The LAN will be a three tier design to separate out access, distribution and core network services (Cisco, n.d.). Wired connectivity will be provided to point of sale systems, POS’s, and wireless will provide connectivity to handheld inventory scanners. Management will be provided the option to use wired and/or wireless connectivity to support their management styles. For speed and reliability, all local servers will connect to the LAN over multi-mode fiber.
 
-&&&& BranchNetwork
+![network diagram](/images/BranchNtwk.png)
 
 ## Network security
 
@@ -98,8 +98,6 @@ Location-dependent nodes, in particular, the POS registers will have client appl
 
 In order to run the IMS, Java EE needs to be installed on the PaaS that Books R Us will rent. Java EE also needs to be installed on each location’s local inventory management front-end (IMFE) server and local database manager.
 
-&&&& BranchNetwork
-
 Eclipse will be used for the development environment. The IDE is free, extensible and has a thriving user community. When and if needed, Eclipse can be adapted to working with other languages and scripts such as PHP and JavaScript. It also provides a cloud-based development environment so that developers are not tied down to a specific location.
 
 ## The cloud
@@ -116,7 +114,7 @@ Coulouris, G., Dillmore, J., Kindberg, T., and Blair, G. (2012). *Distributed sy
 
 Dennis, A., Wixon, B., and Tegarden, D. (2005). *System analysis anddesign with UML version 2.0* [2nd ed.]. Hoboken, NJ: John Wiley and Sons, Inc.
 
-Dix, J. (Sep, 2011). *Enterprise WAN connectivity: MPLS VPN vs. public internet*. Retrieved from [http://www.networkworld.com/article/2220617/tech-debates/enterprise-wan-connectivity--mpls-vpn-vs--public-internet.html ](http://www.networkworld.com/article/2220617/tech-debates/enterprise-wan-connectivity--mpls-vpn-vs--public-internet.html "http://www.networkworld.com/article/2220617/tech-debates/enterprise-wan-connectivity--mpls-vpn-vs--public-internet.html")
+Dix, J. (Sep, 2011). *Enterprise WAN connectivity: MPLS VPN vs. public internet*. Retrieved from [http://www.networkworld.com/article/2220617/tech-debates/enterprise-wan-connectivity--mpls-vpn-vs--public-internet.html](http://www.networkworld.com/article/2220617/tech-debates/enterprise-wan-connectivity--mpls-vpn-vs--public-internet.html)
 
 Eriksson, U. (Apr, 2012). *Functional vs non functional requirements*.
 Retrieved from [http://reqtest.com/requirements-blog/functional-vs-non-functional-requirements/ ](http://reqtest.com/requirements-blog/functional-vs-non-functional-requirements/)
@@ -126,7 +124,6 @@ Oracle. (2012) *Your first cup*. Retrieved from [http://docs.oracle.com/javaee/6
 TestOut. (2016). *10.6.2 wireless security facts* [PDF document]. Retrieved from [https://cdn.testout.com ](https://cdn.testout.com)
 
 Tremblett, P. (2001). *Instant enterprise Java Beans*. McGraw-Hill: United States.
-
 
 * TOC
 {:toc}
