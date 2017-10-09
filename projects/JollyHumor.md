@@ -2,7 +2,7 @@
 layout: project
 title: Jolly Humor Ice Cream
 project: artifact
-published: true
+published: false
 updated: 2 Oct, 2017
 ---
 
