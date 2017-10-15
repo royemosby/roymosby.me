@@ -24,14 +24,13 @@ updated: 31 May, 2017
 
 ## Introduction
 
-
 ### Problem Statement
 
 The 3rd Infantry Division’s (3ID) unclassified SharePoint (SP) 2010 portal will be upgraded to SP 2013. The portal services the division staff, two brigade combat teams, an aviation brigade, division artillery, a support brigade, and several co-located units. It consists of over 40 site collections each of which contain nested sub-sites organized to reflect the division’s organization chart. The portal’s primary use is as an enterprise content management system (ECM), providing storage and workspace for various operational and administrative documents. Calendars and custom lists are implemented across the portal based on the needs and skill levels of the units using them. SP workflows have also been adopted to support certain business processes, particularly as help-desk systems and HR functions.
 
 ### Background
 
-The original SP 2010 portal was developed with the aim of high granularity for moving content. The portal’s architecture included 40+ site collections. The thought was that is easier to export and import a whole site collection from a SP server than it is to extract and move content. This sort of migration has never been performed so granularity has not provided the unit with any benefit. However, maintaining 40+ site collections imposed a huge administrative burden. Work performed on one site collection, such as adding functionality or adding new content types, must be redone on every subsequent site collection. Through the years, uneven development effort has left all the site collections with differing solutions and capabilities that may or may not be found on other site collections.[]\#Environment .anchor
+The original SP 2010 portal was developed with the aim of high granularity for moving content. The portal’s architecture included 40+ site collections. The thought was that is easier to export and import a whole site collection from a SP server than it is to extract and move content. This sort of migration has never been performed so granularity has not provided the unit with any benefit. However, maintaining 40+ site collections imposed a huge administrative burden. Work performed on one site collection, such as adding functionality or adding new content types, must be redone on every subsequent site collection. Through the years, uneven development effort has left all the site collections with differing solutions and capabilities that may or may not be found on other site collections.
 
 ### Environment
 
@@ -42,6 +41,7 @@ Security is already in place and is not a consideration that has to be fully add
 The Network Enterprise Center (NEC) maintains the WAN and infrastructure to include all network services. They do not perform any sort of development work. That is left up to their customers as their focus is primarily on service reliability and security compliance. A tight timeline must be established because of constrains placed upon the NEC. They have several intensive projects that start mid-December so must redirect staff and resources elsewhere. To prevent resource conflict, the migration phases that require NEC support for SP 2013 must be completed by December 2nd.
 
 ### Requirements
+
 1. Migrate usage from SP10 to SP13: Functional. The division’s portal shall be migrated from SP10 to SP13.
 2. Access using roles-based permissions: Functional. The portal’s 	permission schema shall follow Microsoft’s best practices in 	established ECM permissions using roles-based access control to provide content access.
 3. Establish governance policy: Functional. The portal shall be 	maintained using established governance policy.
@@ -67,11 +67,11 @@ The criteria for incorporating feedback is that it should address the project re
 
 Other feedback that was received but was not incorporated into the project included:
 
--   **No logon needed to access operational reference content** (operation orders, fragmentary orders, etc). This was outside of the scope of the project and introduced new cybersecurity risks that need to be mitigated.
+- **No logon needed to access operational reference content** (operation orders, fragmentary orders, etc). This was outside of the scope of the project and introduced new cybersecurity risks that need to be mitigated.
 
--   **Access outside of the 3ID domain and on commercial internet**. This was outside of the scope of the project and introduced new cybersecurity risks that need to be mitigated.
+- **Access outside of the 3ID domain and on commercial internet**. This was outside of the scope of the project and introduced new cybersecurity risks that need to be mitigated.
 
--   **View Excel worksheets in browser**. This item is outside of the scope of the project team and has been passed onto the NEC to implement.
+- **View Excel worksheets in browser**. This item is outside of the scope of the project team and has been passed onto the NEC to implement.
 
 ### Testing cases
 
@@ -88,15 +88,15 @@ The requirements covering continuous user access and zero loss of critical infor
 
 This project used a macro-process (Booch et al., 2007) since this methodology is accommodating for general phases. The macro process allowed for the project to be divided up into several distinct phases that had milestone touch-points. The use of five phases in this project provided the stakeholder’s group with an easy tool to keep track of progress across the sub-units.
 
-1.  Requirements – Establish scope and bounds of a project. Allows the PM and stakeholders to define the problems to be addressed by the system.
+1. Requirements – Establish scope and bounds of a project. Allows the PM and stakeholders to define the problems to be addressed by the system.
 
-2.  Analysis and design- Translates the requirements into system 	specifications. Development work performed on system.
+2. Analysis and design- Translates the requirements into system 	specifications. Development work performed on system.
 
-3.  Implementation- Actual system emplaced
+3. Implementation- Actual system emplaced
 
-4.  Test- Analysis of implementation to determine its suitability in 	addressing the projects requirements. Correction of any system flaws identified
+4. Test- Analysis of implementation to determine its suitability in 	addressing the projects requirements. Correction of any system flaws identified
 
-5.  Deployment- Implementation of system that satisfies identified by project stakeholders.
+5. Deployment- Implementation of system that satisfies identified by project stakeholders.
 
 Phases one and two used a waterfall method because all the work at that point was centralized. Requirements were gathered by the project manager and the portal working group. These were assembled into the project proposal document which was presented to a stakeholders’ group consisting of select leadership and section leads. Their feedback was taken back to the portal working group to begin on analysis and design phase.
 
