@@ -13,7 +13,7 @@ I recently finished a Bachelor's in IT and am enrolled in Udacity's front end we
 
 ## Why the shift?
 
-Going from SharePoint to web design is no small shift. I can say that my work with the ECM has inspired me to take the path towards web development using open standards. 
+Going from SharePoint to web design is no small shift. I can say that my work with the ECM has inspired me to take the path towards web development using open standards.
 
 1. **I want to create.** My role as a SP admin in my organization consists mainly of configuring components- administering permissions groups, adding custom columns to lists, building workflows in SP designer, etc. All of these are mainly pointing and clicking through menus and filling out forms. I delight in the times that I had to find ways to make SP's interface look or behave differently. Using CSS and jQuery, I learned how to manipulate elements on a page so that they looked and behaved in a more productive manner than out of the box. Over time, I found myself wanting to do this more than working within the menus.
 
