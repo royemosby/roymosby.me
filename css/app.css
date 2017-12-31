@@ -1,4 +1,14 @@
 /* global */
+h1 {
+    text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arial black', Arial, sans-serif;
+    color: #1f497d;
+}
+
+
 .fa {
     font-size: 1.4em;
 }
@@ -29,21 +39,27 @@
 /*_includes contact.html*/
 
 #contactModal {
-    background-color: #000;
     color: #ccc;
     font-size: 2em;
+    background-color: #232120;
 }
 
 #contactModal ul{
     list-style: none;
+    
 }
 
 /*_includes header.html*/
 
 #titlebar {
-    background-color: #000;
-    color: #ccc;
-}    
+    background-color: #736e68;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.top-bar-left > h3, .top-bar-right > h3 {
+    color: #fff;
+}
 
 /*end_includes header.html*/
 
