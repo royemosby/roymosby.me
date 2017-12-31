@@ -1,13 +1,13 @@
 /* global */
+
 h1 {
     text-transform: uppercase;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4,h5, h6 {
     font-family: 'Arial black', Arial, sans-serif;
     color: #1f497d;
 }
-
 
 .fa {
     font-size: 1.4em;
@@ -22,20 +22,27 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0.4rem .8rem;
 }
 
+
 /*_layouts*/
+
+
 /*_layouts contact.html*/
 
 .bottom-row {
-    margin-top: 50px;            
+    margin-top: 50px;
 }
 
 .top-row {
-    margin-top:200px;
+    margin-top: 200px;
 }
+
 
 /*end _layouts contact*/
 
+
 /*_includes*/
+
+
 /*_includes contact.html*/
 
 #contactModal {
@@ -44,10 +51,10 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #232120;
 }
 
-#contactModal ul{
+#contactModal ul {
     list-style: none;
-    
 }
+
 
 /*_includes header.html*/
 
@@ -57,11 +64,13 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 
-.top-bar-left > h3, .top-bar-right > h3 {
+.top-bar-left>h3, .top-bar-right>h3 {
     color: #fff;
 }
 
+
 /*end_includes header.html*/
+
 
 /*_includes sidebarMain.html*/
 
@@ -71,20 +80,174 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 15px;
 }
 
+
 /*end _includes sidebarMain.html*/
 
+
 /*_includes footer.html*/
+
 footer {
     padding: 20px 0;
     text-align: center;
 }
 
-hr.footerHr { 
-    border: 0; 
-    height: 1px; 
+hr.footerHr {
+    border: 0;
+    height: 1px;
     background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
     background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
     background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
-  }
-  /*end_includes footer.html*/
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+
+/*end_includes footer.html*/
+
+
+/* Udacity project timeline */
+
+.timeline .timeline-item::after,
+.timeline .timeline-item::before {
+    clear: both;
+    content: '';
+    display: block;
+    width: 100%;
+}
+
+.timeline {
+    margin: 30px auto;
+    padding: 0 10px;
+    position: relative;
+    transition: all 0.25s ease-in;
+    width: 100%;
+}
+
+.timeline::before {
+    background: #1f497d;
+    content: '';
+    height: 100%;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    width: 3px;
+}
+
+.timeline::after {
+    clear: both;
+    content: '';
+    display: table;
+    width: 100%;
+}
+
+.timeline a {
+    color: #000;
+    font-weight: bold;
+    transition: all 0.25s ease-in;
+}
+
+.timeline a:hover {
+    box-shadow: 0 1px 0px 0px #000;
+    transition: all 0.25s ease-in;
+}
+
+.timeline .timeline-item {
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.timeline .timeline-item .timeline-icon {
+    background: #1f497d;
+    border-radius: 50%;
+    height: 50px;
+    left: 50%;
+    margin-left: -23px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 50px;
+}
+
+.timeline .timeline-item .timeline-icon img,
+.timeline .timeline-item .timeline-icon svg {
+    left: 14px;
+    position: relative;
+    top: 11px;
+}
+
+.timeline .timeline-item .timeline-icon svg {
+    top: 14px;
+}
+
+.timeline .timeline-item .timeline-content {
+    padding: 20px;
+    text-align: right;
+    transition: all 0.25s ease-in;
+    width: 45%;
+    background: transparent;
+}
+
+.timeline .timeline-item .timeline-content p {
+    color: #000;
+}
+
+.timeline .timeline-item .timeline-content p {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 0;
+}
+
+.timeline .timeline-item .timeline-content .timeline-content-date {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.timeline .timeline-item .timeline-content .timeline-content-month {
+    font-size: rem-calc(14);
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.timeline .timeline-item .timeline-content.right {
+    float: right;
+    text-align: left;
+}
+
+.timeline-icon {
+    font-family: "Arial black", Arial, sans-serif;
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+    padding-top: .35em;
+}
+
+
+/* Udacity project timeline small media breakpoint*/
+
+@media screen and (max-width: 64em) {
+    .timeline {
+        margin: 30px;
+        padding: 0;
+        width: 90%;
+    }
+    .timeline::before {
+        left: 0;
+    }
+    .timeline .timeline-item .timeline-content {
+        float: right;
+        text-align: left;
+        width: 90%;
+    }
+    .timeline .timeline-item .timeline-content::before,
+    .timeline .timeline-item .timeline-content.right::before {
+        border-left: 0;
+        border-right: 7px solid #1f497d;
+        left: 10%;
+        margin-left: -6px;
+    }
+    .timeline .timeline-item .timeline-icon {
+        left: 0;
+    }
+}
+
+/* End Udacity project timeline */
