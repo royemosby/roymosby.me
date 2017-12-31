@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+
+<head>
+  {% include head.html %}
+</head>
+
+<body>
+
+  {% include header.html %}
+
+<div class="grid-x">
+  {% include sidebarMain.html %}
+
+  <div class= "small-12 medium-9 cell">
+    <!-- Course timeline here -->
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-icon"><i class="fa fa-star-o" aria-hidden="true"></i></div>
+        <div class="timeline-content">
+          <p class="timeline-content-date">Jun 18th, 2017</p>
+          <p>Course Start!</p>
+        </div> 
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-icon"><i class="fa fa-html5" aria-hidden="true"></i></div>
+        <div class="timeline-content right">
+          <p class="timeline-content-date">June 25th, 2017</p>
+          <h4>Article Mockup</h4>
+          <p>Used HTML and CSS to convert a PDF mockup into a functional website</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-icon"><i class="fa fa-html5" aria-hidden="true"></i></div>
+        <div class="timeline-content">
+          <p class="timeline-content-date">June 27th, 2017</p>
+          <h4>Animal Trading Cards</h4>
+          <p>Used HTML and CSS to convert a PDF mockup into a functional website</p>
+        </div> 
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-icon"><i class="fa fa-html5" aria-hidden="true"></i></div>
+        <div class="timeline-content right">
+          <p class="timeline-content-date">July 7th, 2017</p>
+          <h4>Build a Portfolio Site</h4>
+          <p>Developed a personal portfolio page using HTML, CSS, and the Bootstrap framework. The page is fully responsive and works on mobile, tablet, and desktop browsers.</p>
+          <img src="/images/ResponsiveFull.jpeg" alt="Responsive portfolio site">
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-icon">JS</div>
+        <div class="timeline-content">
+          <p class="timeline-content-date">September 2nd, 2017</p>
+          <h4>Online Resume</h4>
+          <p>Using jQuery, developed an interactive resume application that reads all data from a JSON file and then dynamically modifies the DOM to display the information. Further customized the project by personalizing the design using CSS.</p>
+          <img src="/images/TemplResume.jpeg" alt"Templated resume using jQuery">
+        </div> 
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-icon"><i class="fa fa-gamepad" aria-hidden="true"></i></div>
+        <div class="timeline-content right">
+          <p class="timeline-content-date">October 14th, 2017</p>
+          <h4>Classic Arcade Game</h4>
+          <p>An HTML5 Canvas powered video game, developed using the best practices in Object Oriented JavaScript.</p>
+          <img src="/images/gameClone.jpg" alt="Arcade game clone">
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-icon"><i class="fa fa-cogs" aria-hidden="true"></i>
+        </div>
+        <div class="timeline-content">
+          <p class="timeline-content-date">December 2nd, 2017</p>
+          <h4>Website Optimization</h4>
+          <p>Optimized an inefficient web application's JavaScript, CSS and assets delivery, ensuring it runs at 60fps and achieves a Google PageSpeed score of at least 90.</p>
+          <img src="/images/pageOptim.jpg" alt="Google Pagespeed score of 98%">
+          <img src="/images/FPS.jpg" alt="60 frames per second page render">
+        </div> 
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-icon"><i class="fa fa-map" aria-hidden="true"></i>
+        </div>
+        <div class="timeline-content right">
+          <p class="timeline-content-date">Jan 6, 2018</p>
+          <h4>Neighborhood Map</h4>
+          <p>Single-page application featuring a neighborhood map with point-of-interest markers, search feature, and a list view to browse points. This project also implements 3rd party APIs to bring in additional information such as Wikipedia, Yelp reviews, StreetView, etc.</p>
+        </div>
+      </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon">
+            <!-- <i class="fa fa-check-square" aria-hidden="true"></i>
+            -->
+          </div>
+          <div class="timeline-content">
+            <p class="timeline-content-date">TBD</p>
+            <h4>Feed Reader Testing</h4>
+            <p>Project uses Jasmine to explore test driven development (TDD) using JavaScript.</p>
+          </div> 
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-icon">
+            <!-- <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+            -->
+          </div>
+          <div class="timeline-content right">
+            <p class="timeline-content-date">Soon!</p>
+            <h4>Course Certification</h4>
+          </div>
+        </div>
+
+    </div>
+    <!-- End course timeline -->
+  </div>
+
+</div>
+
+  {% include footer.html %}
+
+  {% include scripts.html %}
+
+  
+</body>
+
+</html>
