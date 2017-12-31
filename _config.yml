@@ -1,5 +1,7 @@
 include: ['projects']
 markdown : kramdown
+kramdown:
+  input: GFM
 email: "roy.e.mosby@gmail.com"
 facebook: "https://www.facebook.com/roy.e.mosby"
 github: "https://github.com/egomadking"
