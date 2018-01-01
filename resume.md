@@ -6,9 +6,7 @@ updated: 31 December, 2017
 ---
 # Roy Mosby
 
-- [LinkedIn](www.linkedin.com/in/roy-mosby)
-- [Twitter](https://twitter.com/royemosby)
-- [roy.e.mosby@gmail.com](mailto:roy.e.mosby@gmail.com)
+[LinkedIn](www.linkedin.com/in/roy-mosby) | [Twitter](https://twitter.com/royemosby) | [roy.e.mosby@gmail.com](mailto:roy.e.mosby@gmail.com)
 
 ## Profile
 
