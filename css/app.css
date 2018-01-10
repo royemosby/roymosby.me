@@ -9,6 +9,20 @@ h1, h2, h3, h4,h5, h6 {
     color: #1f497d;
 }
 
+a:focus {
+    outline: none;
+}
+
+a {
+    line-height: inherit;
+    color: #1779ba;
+    text-decoration: none;
+    cursor: pointer; }
+    a:hover, a:focus {
+      color: #02304e; }
+    a img {
+      border: 0; }
+
 .fa {
     font-size: 1.4em;
 }
