@@ -235,6 +235,27 @@ hr.footerHr {
     padding-top: .35em;
 }
 
+.grad {
+    margin-top: -2em;
+}
+
+.grad-icon {
+    background: #1f497d;
+    border-radius: 50%;
+    font-family: "Arial black", Arial, sans-serif;
+    font-size: 3em;
+    color: #fff;
+    text-align: center;
+    padding-top: .35em;
+    width: 100px;
+    height: 100px;
+    margin: 0px auto;
+}
+
+.cert {
+    max-width: 500px;
+}
+
 
 /* Udacity project timeline small media breakpoint*/
 
@@ -262,6 +283,10 @@ hr.footerHr {
     .timeline .timeline-item .timeline-icon {
         left: 0;
     }
+
+.grad-icon {
+    margin: 0 0 0 -0.2em ;
+}
 }
 
 /* End Udacity project timeline */
