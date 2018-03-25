@@ -19,9 +19,9 @@ a {
     text-decoration: none;
     cursor: pointer; }
     a:hover, a:focus {
-      color: #02304e; }
+        color: #02304e; }
     a img {
-      border: 0; }
+        border: 0; }
 
 .fa {
     font-size: 1.4em;
@@ -235,8 +235,16 @@ hr.footerHr {
     padding-top: .35em;
 }
 
+.timeline-icon img {
+    left: 0 !important;
+    top: -5px !important;
+    height: 40px;
+    width: 40px;
+}
+
 .grad {
     margin-top: -2em;
+    text-align: center;
 }
 
 .grad-icon {
@@ -284,9 +292,12 @@ hr.footerHr {
         left: 0;
     }
 
-.grad-icon {
-    margin: 0 0 0 -0.2em ;
-}
+    .grad-icon {
+        margin: 0 0 0 -0.4em ;
+    }
+    .cert {
+        max-width: 450px;
+    }
 }
 
 /* End Udacity project timeline */
