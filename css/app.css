@@ -94,6 +94,9 @@ a {
     margin-right: 15px;
 }
 
+.show-for-large img{
+    height: auto;
+}
 
 /*end _includes sidebarMain.html*/
 
