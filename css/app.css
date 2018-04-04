@@ -94,8 +94,9 @@ a {
     margin-right: 15px;
 }
 
-.show-for-large img{
-    height: auto;
+.portrait{
+    height: 235px;
+    width: 235px;
 }
 
 /*end _includes sidebarMain.html*/
