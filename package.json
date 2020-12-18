@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "npx eleventy --serve",
-    "debug": "DEBUG=* npx eleventy",
+    "debug": "DEBUG=* npx @11ty/eleventy",
     "clean": "rm -rf _site src/styles/styles.css",
     "dev": "npm run clean && postcss src/styles/tailwind.css > src/styles/styles.css && eleventy --serve",
     "build": "npm run clean && NODE_ENV=production postcss src/styles/tailwind.css > src/styles/styles.css && eleventy"
@@ -31,5 +31,9 @@
     "postcss": "^8.2.1",
     "postcss-cli": "^8.3.1",
     "tailwindcss": "^2.0.2"
+  },
+  "dependencies": {
+    "fontsource-montserrat": "^3.1.5",
+    "fontsource-source-sans-pro": "^3.1.5"
   }
 }
