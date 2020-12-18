@@ -1,5 +1,6 @@
 module.exports = function(eleventyConfig){
 
+  eleventyConfig.setDataDeepMerge(true);
   eleventyConfig.setUseGitIgnore(false);
   eleventyConfig.addPassthroughCopy('src/icons');
   eleventyConfig.addPassthroughCopy('src/images');
