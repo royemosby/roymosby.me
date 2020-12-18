@@ -1,0 +1,18 @@
+---
+layout: paginate.liquid
+title: blog
+---
+
+<h1 class="text-5xl mb-16 text-center font-heading">{{ title | capitalize }}</h1>
+
+{%- for post in collections.posts reversed -%}
+  <div class="border-b-2 border-black border-opacity-50">
+    <a class="mb-8 hover:text-black hover:underline" 
+      href="{{post.url}}">
+      <h1 class="text-4xl font-heading">{{post.data.title | "capitalize"}}</h1>
+    </a>
+    <h2 class="text-xl italic mb-4">Posted: {{post.data.date | date: "%A, %b %d, %Y" }}</h2>
+    <p>{{post.data.extract}} <a href="{{post.url}}"></a><span class="italic hover:text-black hover:underline">Continued...</span></a></p>
+  </div>
+{%- endfor -%}
+
