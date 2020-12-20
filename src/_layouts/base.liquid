@@ -4,11 +4,11 @@
 
   <body class="flex flex-col min-h-screen items-center bg-gradient-to-b from-purple-100 via-pink-50 to to-blue-300 text-gray-900 p-1">
     {% include ie9 %}
-    <header class="flex items-start justify-between w-screen">{% include header %}</header>
+    <header class="flex items-start justify-between w-full">{% include header %}</header>
     <main class="flex-grow max-w-4xl">
       {{ content }}
     </main>
-    <footer class="flex items-end justify-between w-screen">
+    <footer class="flex items-end justify-between w-full">
       {% include footer %}
     </footer>
     <script src="/scripts/app.js" defer></script>
