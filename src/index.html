@@ -10,6 +10,6 @@ title: home
       <h1 class="text-4xl font-heading">{{post.data.title | "capitalize"}}</h1>
     </a>
     <h2 class="text-xl italic mb-4">Posted: {{post.data.date | date: "%A, %b %d, %Y" }}</h2>
-    <p>{{post.data.extract}} <a href="{{post.url}}"></a><span class="italic hover:text-black hover:underline">Continued...</span></a></p>
+    <p>{{post.data.extract}} <a href="{{post.url}}"><span class="italic hover:text-black hover:underline">Continued...</span></a></p>
   </div>
 {%- endfor -%}
