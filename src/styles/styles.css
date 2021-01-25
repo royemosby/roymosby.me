@@ -67,8 +67,10 @@ footer ul {
   .blog-title h1 {
     font-size: 2rem;
   }
+}
 
-  @media screen and (min-width: 650px) {
-    .blog-title h1 {
-      font-size: 4rem;
-    }
+@media screen and (min-width: 650px) {
+  .blog-title h1 {
+    font-size: 4rem;
+  }
+}
