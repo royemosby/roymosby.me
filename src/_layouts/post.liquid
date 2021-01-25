@@ -3,8 +3,9 @@ layout: base.liquid
 ---
 
 
-<h1 class="text-5xl mb-16 text-center font-heading">{{ title | capitalize }}</h1>
-<p class="italic text-xl mb-4 font-heading">Published: {{ page.date | date: '%a, %b %d, %Y' }}</p>
+<h2>{{ title | capitalize }}</h2>
+<h3>Published: {{ page.date | date: '%a, %b %d, %Y' }}</h3>
+
 
 {{ content }}
 

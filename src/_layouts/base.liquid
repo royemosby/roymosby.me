@@ -2,13 +2,13 @@
 <html lang="en-US">
   {% include head %}
 
-  <body class="flex flex-col min-h-screen items-center bg-gradient-to-b from-purple-100 via-pink-50 to to-blue-300 text-gray-900 p-1">
+  <body>
     {% include ie9 %}
-    <header class="flex items-start justify-between w-full">{% include header %}</header>
-    <main class="flex-grow max-w-4xl">
+    <header>{% include header %}</header>
+    <main>
       {{ content }}
     </main>
-    <footer class="flex items-end justify-between w-full">
+    <footer>
       {% include footer %}
     </footer>
     <script src="/scripts/app.js" defer></script>

@@ -6,31 +6,28 @@ extract: "While I may be a little older than the typical person transitioning in
 
 *Feeds many*
 
-<h2 class="uppercase">Ingredients</h2>
-<ul>
-  <li>1 idea</li>
-  <li>1 API or information rich website</li>
-  <li>1 programming language (Ruby)</li>
-</ul>
-<br/>
-<h2 class="uppercase">Tools</h2>
-<ul>
-  <li>IDE</li>
-  <li>API key</li>
-  <li>Gems (various) as needed</li>
-  <li>Ruby bundler</li>
-  <li>RSPEC</li>
-  <li>Digital programmer's notebook</li>
-</ul>
-<br/>
-<h2 class="uppercase">Instructions</h2>
-<ol>
-  <li>Identify a need</li>
-  <li>Generate requirements</li>
-  <li>Design</li>
-  <li>Develop MVP</li>
-  <li>Assess and seek feedback</li>
-</ol>
+## Ingredients
+
+- 1 idea
+- 1 API or information rich website
+- 1 programming language (Ruby)
+
+## Tools
+
+- IDE
+- API key
+- Gems (various) as needed
+- Ruby bundler
+- RSPEC
+- Digital programmer's notebook
+
+## Instructions
+
+1  Identify a need
+2  Generate requirements
+3  Design
+4  Develop MVP
+5  Assess and seek feedback
 
 Doing lessons and making a project from scratch are two sepparate things entirely. With a lesson using BDD (behavior driven design) tests from an test suite, the focus is soley on getting a system to work by satifying a series of behavioral expectations. You sees a test and its expected output. You figure out what behaviour satisfies that test then move onto the next test. After a while you have a complete, working system. You do not need to know how the system works as a whole to accomplish this.
 
