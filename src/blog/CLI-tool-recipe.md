@@ -62,7 +62,7 @@ Before I even start to code, I design my system. Since I am a visual learner, th
 After some thought, I divided my code into 3 classes: CLI, Recipe, and Fetcher. Each one of these classes will have a single instance initiated to make the program function. The CLI is responsible for printing out text to the CLI and accepting input from the user. The Recipe is an intermediary that contains, validates, passes information between the CLI and the Fetcher. Finally a Fetcher object interfaces with the EDAMAM API.
 
 "Diagram detailing the classes in the methods and how they interact in the system."
-![Screen Shot 2021-01-10 at 22.18.51.jpg](/images/seq_diagram.jpg)
+![Screen Shot 2021-01-10 at 22.18.51.jpg](/images/seq-diagram.jpg)
 
 After fleshing out a [sequence diagram](https://en.wikipedia.org/wiki/Sequence_diagram), I determined what other code I needed to depend upon to assist my coding efforts. In the Ruby world, other code that you can bring into a project are called "Gems". These gems provide functionality so you do not have to write it yourself. References to these gems gets added to a gemfile. This list tells Ruby's bundler what to install when working with a project.
 
