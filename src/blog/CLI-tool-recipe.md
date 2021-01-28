@@ -6,6 +6,8 @@ extract: "While I may be a little older than the typical person transitioning in
 
 *Feeds many*
 
+*edited Jan 28th*
+
 ## Ingredients
 
 - 1 idea
@@ -57,10 +59,10 @@ With these requirements, I understand better how to start designing my system.
 
 Before I even start to code, I design my system. Since I am a visual learner, this means that I usually start with diagrams. This allows me to think about the system at a high level and to identify how its different components. Since this project follows OOP principles, I brainstorm the steps that need to be performed and what should be responsible each. Even though they are not a part of my code, I include the user and the API while thinking about these tasks. After all, they both do and expect certain certain items from the code.
 
-After some thought, I divided my code into 3 classes: CLI, Controller, and Fetcher. Each one of these classes will have a single instance initiated to make the program function. The CLI is responsible for printing out text to the CLI and accepting input from the user. The controller is an intermediary that validates and passes information between the CLI and the Fetcher. Finally a Fetcher object interfaces with the EDAMAM API.
+After some thought, I divided my code into 3 classes: CLI, Recipe, and Fetcher. Each one of these classes will have a single instance initiated to make the program function. The CLI is responsible for printing out text to the CLI and accepting input from the user. The Recipe is an intermediary that contains, validates, passes information between the CLI and the Fetcher. Finally a Fetcher object interfaces with the EDAMAM API.
 
 "Diagram detailing the classes in the methods and how they interact in the system."
-![Screen Shot 2021-01-10 at 22.18.51.jpg](/images/CLI-sequence.jpg)
+![Screen Shot 2021-01-10 at 22.18.51.jpg](/images/seq_diagram.jpg)
 
 After fleshing out a [sequence diagram](https://en.wikipedia.org/wiki/Sequence_diagram), I determined what other code I needed to depend upon to assist my coding efforts. In the Ruby world, other code that you can bring into a project are called "Gems". These gems provide functionality so you do not have to write it yourself. References to these gems gets added to a gemfile. This list tells Ruby's bundler what to install when working with a project.
 
