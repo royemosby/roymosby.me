@@ -66,7 +66,9 @@ When working with ActiveRecord, the second half of establishing a working object
 
 class User <ActiveRecord::Base
   has_many :recipes
-  has_secure_password #don't focus on this... it forces a user to have a password and stores it securely.
+  has_secure_password # don't focus on this...
+                      # it forces a user to have a password
+                      # and stores it securely.
 end
 
 # recipe model
