@@ -63,6 +63,10 @@ footer ul {
   border-bottom: 1px solid var(--border)
 }
 
+.about-paragraph {
+  font-size: 1.5rem;
+}
+
 @media screen and (min-width: 400px) {
   .blog-title h1 {
     font-size: 2rem;
