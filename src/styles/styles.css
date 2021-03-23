@@ -46,7 +46,11 @@ footer ul {
   text-transform: uppercase;
 }
 
-
+.publish-date {
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-style: italic;
+}
 
 .rp-logo img {
   height: 110px;
@@ -77,4 +81,24 @@ footer ul {
   .blog-title h1 {
     font-size: 4rem;
   }
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.social {
+  height: 60px;
+  padding: 1em;
+  width: 60px;
+  min-height: 60px;
+  min-width: 60px;
+}
+
+.social img {
+  opacity: 80%;
+  width: 100%
 }
