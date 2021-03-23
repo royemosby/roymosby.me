@@ -2,6 +2,7 @@
 title: A recipe for a ruby CLI tool
 date: 2021-01-10
 extract: "While I may be a little older than the typical person transitioning into software development, I am driven by the notion that everyone is on their own journey. Mine has taken me through a 20-year military career in signal and to nearly 15 countries. I am not ready to stop yet either."
+description: "How to plan a Ruby CLI project"
 ---
 
 *Feeds many*
