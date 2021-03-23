@@ -2,11 +2,17 @@
 title: Dealing with multiple table relations 
 date: 2021-02-14
 extract: "To design my object relation model, I have to consider two types of data in RecipeSwap: users and recipes. I also have to determine how those two types relate to each other."
+description: "Object relational model challenges found in my Ruby Sinatra + ActiveRecord project, RecipeSwap."
 ---
 
 "And all the men and women merely players; They have their exits and their entrances, And one man in his time plays many parts..." -Shakespeare, As You Like It
 
-[RecipeSwap](https://github.com/egomadking/RecipeSwap), a Ruby project built with Sinatra and ActiveRecord for my Flatiron class, is a recipe sharing community. Users of the RecipeSwap can create recipes and curate other's recipes by favoriting them. Before going any further, this article assumes familiarity with Ruby and basic structured database concepts.
+![RecipeSwap home screen](/images/recipeSwap.jpg)
+
+- [link to demo app](https://recipe-swap.herokuapp.com/) (not mobile friendly yet)
+- [link to code repository](https://github.com/egomadking/RecipeSwap)
+
+RecipeSwap, a Ruby project built with Sinatra and ActiveRecord for my Flatiron class, is a recipe sharing community. Users of the RecipeSwap can create recipes and curate other's recipes by favoriting them. Before going any further, this article assumes familiarity with Ruby and basic structured database concepts.
 
 ## Obect Relation Model
 
