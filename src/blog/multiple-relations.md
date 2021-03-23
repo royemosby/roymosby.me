@@ -9,7 +9,7 @@ description: "Object relational model challenges found in my Ruby Sinatra + Acti
 
 ![RecipeSwap home screen](/images/recipeSwap.jpg)
 
-- [link to demo app](https://recipe-swap.herokuapp.com/) (not mobile friendly yet)
+- [link to RecipeSwap demo](https://recipe-swap.herokuapp.com/) (not mobile friendly yet)
 - [link to code repository](https://github.com/egomadking/RecipeSwap)
 
 RecipeSwap, a Ruby project built with Sinatra and ActiveRecord for my Flatiron class, is a recipe sharing community. Users of the RecipeSwap can create recipes and curate other's recipes by favoriting them. Before going any further, this article assumes familiarity with Ruby and basic structured database concepts.
