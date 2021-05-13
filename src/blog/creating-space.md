@@ -5,6 +5,8 @@ extract: "Namespaces provide a means to logically group and re-route controllers
 description: "Using namespaces to separate areas of functionality in a Rails app"
 ---
 
+*A [repository for RoR Newsroom project](https://github.com/egomadking/RoR-Newsroom) can be found on my GitHub*
+
 For my phase 3 Ruby on Rails project, I decided to create RoR Newsroom.  This newsroom application is platform for readers to read published articles and gives a place where RoR Newsroom employees can work on articles before they are published.
 
 - Readers would go to ror-newsroom.com to read(not a real website!)
