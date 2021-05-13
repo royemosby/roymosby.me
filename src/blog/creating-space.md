@@ -5,9 +5,28 @@ extract: "Namespaces provide a means to logically group and re-route controllers
 description: "Using namespaces to separate areas of functionality in a Rails app"
 ---
 
-For my phase 3 Ruby on Rails project, I decided to create a newsroom app. RoR Newsroom focuses on the publishing workflow found inside of a multi-user new-producing venture. I wanted the project to be structured so that visitors can peruse published articles and give the editorial team a platform on which to work. I also wanted to keep the two uses separate from each other- users should not be able to see non-published drafts or make any changes to any content.
+For my phase 3 Ruby on Rails project, I decided to create RoR Newsroom.  This newsroom application is platform for readers to read published articles and gives a place where RoR Newsroom employees can work on articles before they are published.
 
-Enter namespaces. Namespaces provide a means to logically group and re-route controllers within a Rails app. Setting up a namespace consists of defining the namespace and then passing in the controllers that are to be grouped.
+- Readers would go to ror-newsroom.com to read(not a real website!)
+  - They do not have accounts so do not need to log on
+  - They can read published articles
+  - The can browse article tags and see associated published articles
+  - They can see a staff page and an about page
+  - Theu CANNOT see any articles that are not yet published
+  - They CANNOT make any changes
+- Newsroom employees would go to ror-newsroom.com/workspace to work
+  - They have to log in with username/password our using GitHub's OAuth authentication
+  - They can update their account information
+  - They can view articles by status (new, approved, draft, review, etc.)
+  - They can interact with non-published articles (create, view, edit, publish)
+  - They can provide editorial review comments on draft articles
+  - They can still see the published articles, tags, etc. by navigating to routes accessible to readers
+
+## Minimizing logic in controllers
+
+Enter namespaces. Namespaces provide a means to group controllers and re-route requests within a Rails app. By separating one of the uses off into a namespace, it allows me to work with the same model data in different ways without having to bog my controller actions down excessive logic. I am displaying articles to readers and employees but they are doing it for different purposes. Rather than increase the logic in my controller to determine who is visiting and for what purpose, I nest my ArticlesController in `workspace`. I then create a NewsController that a reader interacts with to see published articles. I also split interaction with my Employee model into StaffController and EmployeesController for much the same purpose.
+
+Namespacing starts by drawing the namespace in the routes and then nesting the controllers that are to be grouped together.
 
 ```ruby
 #inside /config/routes.rb
@@ -27,17 +46,23 @@ Rails.application.routes.draw do
 end
 ```
 
-The code above is an example of what Rails uses in the `routes.rb` to determine how to route browser requests. If this application was hosted at `ror-newsroom.com`, the resources `:news` and `:staff` could be found at `ror-newsroom.com/news` and `ror-newsroom.com/staff`, respectively. The namespace `:workspace` separates the `:articles`, `:editor_revisions`, and `:employees` from the first two by nesting their actions into a workspace route. This means that to get to articles, one would have to use the url `ror-newsroom.com/workspace/articles`.
+The code above is an example of what Rails uses in the `routes.rb` to determine how to route browser requests. Some controllers and special-use routes have been omitted to keep the example concise.
 
-Since Ruby on Rails favors convention, this effect ripples across the application, changing file structures and some code that is expected along the way. While this may sound daunting at first, it helps with the organization of a larger project.
+If this application was hosted at `ror-newsroom.com`, that URL would be the one that users go to see all the published articles. The resources `:news` and `:staff` could be found at `ror-newsroom.com/news` and `ror-newsroom.com/staff`, respectively.
 
-Here is a short list of things that change. The rest of this article will illustrate examples of each to get you up and going.
+The `:workspace` nests the controllers `:articles`, `:editor_revisions`, and `:employees` to keep them separated from `news` and `staff`. They are accessible only through that namespace. The homepage for employees after they log in is `ror-newsroom.com/workspace`.
 
-1. The controllers are nested in a `workspace` folder
-2. The resources that go with the controllers are similarly nested into a `workspace` folder in their respective locations throughout the app (styles, partials, helpers, tests, and so on...)
-3. The controllers' classes are namespaced under `Workspace::`
-4. Form helpers have to be passed both the namespace and the object when working with a particular model instance
-5. Controller generator is smart! (well, this is not a change, but certainly helps out as a good friend should)
+## Rails simplifies design decisions with conventions
+
+Since Ruby on Rails favors convention over configuration, inclusion of a namespace changes some file structures and and a little code. While this may sound daunting at first, respecting convention helps with the organization of a larger project. In short, as a Rails developer, I've been provided tools that allow me to focus on the behavior inside the project rather than having to invent frameworks for those behaviors myself. 
+
+Excluding the routes at the beginning of the article, here are the salient changes to a Rails app. The rest of this article will provide examples of each to get you up and going.
+
+1. The controllers are nested in a `workspace` folder.
+2. The resources that work with controllers nested into a `workspace` folder in their respective location (styles, partials, helpers, tests, and so on...).
+3. The controllers' classes are namespaced under `Workspace::`.
+4. Form helpers have to be passed the namespace and the object instead of just an object.
+5. Rails' controller generator is smart! Well, this is not a change, but certainly helps out like a good friend should.
 
 ## Controllers are nested in a `workspace` folder
 
@@ -53,7 +78,7 @@ Wherever resources are usually found, they should be nested similarly to the con
 
 ![Namespaced Helpers](/images/namespaced-helpers.png)
 
-Even Rspec will create tests in the correct directory when a controller generator makes a namespaced route.
+Even Rspec, when used, will create tests in the correct directory when a controller generator makes a namespaced route.
 
 ![Namespaced RSpec](/images/namespaced-rspec.png)
 
@@ -102,49 +127,47 @@ class Workspace::ArticlesController < ApplicationController
 end
 ```
 
-As an aside, you may note that I am referencing the same model, Article, in both of these controllers. This allows me to handle an article instance differently, depending on the context of the actions being performed on the Article resource. In this case, the NewsController is focused on presenting visitors with published articles. Workspace::ArticlesController is tasked with allowing only RoR Newsroom employees to work on articles.
-
 ## Form helpers need more information
 
-For a form-helper to do its magic, it has to know information about what it is working on and where it is supposed to direct requests. Normally, they can pick up enough information by being given just a model instance to work with. By convention, it knows where the controllers are and what actions to use. Namespaces complicate this a bit so the form_helpers need just a little bit more information so that they know how to set up requests.
+In order for a form-helper to do its magic, it has to know information about what it is working on and where it is supposed to direct requests. Normally, they chave enough information when supplied a model instance to work with. By convention, it knows where the controllers are and what actions to use. Namespaces complicate this a bit so the form-helpers need just a little bit more information so that they know how to set up requests.
 
-Here is an example Rails form template using form_with
+Here is an example typical Rails form template using form_with
 
 ```ruby
 <%= form_with model: @article do |f| %>
 
- <%= f.label :title %>
- <%= f.text_field :title %>
- <br>
- <%= f.label :content%>
- <%= f.text_area :content, size: "100x30" %>
- <br>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+    <br>
+    <%= f.label :content%>
+    <%= f.text_area :content, size: "100x30" %>
+    <br>
 
     <%= f.submit %>
 <% end %>
 ```
 
-If this code above was used in a form, the application would throw an error to the effect that a route could not be found. By Rails convention, when given a model instance- `@article` in this case- it will look for an `AriclesController`. The form helper does not know to look in the Workspace:: namespace for the controller class with which to work. On the form, it will attempt to make the post (or update) action to `ror-newsroom.com/articles`. The desired route with the namespace is `ror-newsroom.com/workspace/articles`. Luckily, it only requires minor modification to get the helper the information that it needs.
+If this code above was used in a form referenced by a namespaced controller, the application would throw an error to the affect that a route could not be found. When given a model instance- `@article` in this case- it will look for an `AriclesController`. The form helper does not know to look in the Workspace:: namespace yet. The form will attempt to make the post action route to `ror-newsroom.com/articles` which does not exist. The desired route with the namespace is `ror-newsroom.com/workspace/articles`. Luckily, it only requires minor modification to get the helper the information that it needs.
 
 ```ruby
 <%= form_with model: [:workspace, @article] do |f| %>
 
- <%= f.label :title %>
- <%= f.text_field :title %>
- <br>
- <%= f.label :content%>
- <%= f.text_area :content, size: "100x30" %>
- <br>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+    <br>
+    <%= f.label :content%>
+    <%= f.text_area :content, size: "100x30" %>
+    <br>
 
     <%= f.submit %>
 <% end %>
 ```
 
-The model also accepts an array of values, where one can designate a namespace on top of a model instance from which to work. It can now build the form to correctly handle the post(or update) request. `form_for` and `form_tag` if used, have to be created with the same considerations taken with form_with.
+The `form_with` method also accepts an array of values, where one can designate a namespace and a model instance from which to work. The form builder can now correctly handle the post(or update) request. If `form_for` or `form_tag` are used, the same considerations must be taken into account.
 
-## Controller generators are smart
+## Controller generators are smart!
 
-If they are being used to generate namespaced controllers, they are flexible enough to automatically namespace controller classes and place all generated files in the correctly nested locations.
+If a generator is being used, they are flexible enough to automatically namespace controller classes and place all generated files in the correctly nested locations. 
 
 Normally one would use a generator like:
 
@@ -155,9 +178,11 @@ rails generate controller Articles
 To namespace, combine the namespace with the article as if it was a directory structure
 
 ```bash
-rails generate controller Workspace/Articles
+rails generate contoller Workspace/Articles
 ```
+
+This approach will place all the controllers and associated files in the correct directories. What is more, the controller's class will be declared correctly namespaced. Same with helper modules. Rails almost codes itself at times!
 
 ## Closing Thoughts
 
-The use of namespaces is a convenient way to structure a Rails app. They can separate controllers and views inside the application into logical groups. There are more details that go into using namespaces, but with the information provided in this article, it is easy to get started.
+The use of namespaces are a convenient way to structure a Rails app. They can separate controllers and views inside the application into logical groups. With the information provided in this article, it is easy to get started.
