@@ -63,7 +63,7 @@ Since Ruby on Rails favors convention over configuration, inclusion of a namespa
 Excluding the routes at the beginning of the article, here are the salient changes to a Rails app. The rest of this article will provide examples of each to get you up and going.
 
 1. The controllers are nested in a `workspace` folder.
-2. The resources that work with controllers nested into a `workspace` folder in their respective location (styles, partials, helpers, tests, and so on...).
+2. The resources that work with controllers are nested into a `workspace` folder in their respective location (styles, partials, helpers, tests, and so on...).
 3. The controllers' classes are namespaced under `Workspace::`.
 4. Form helpers have to be passed the namespace and the object instead of just an object.
 5. Rails' controller generator is smart! Well, this is not a change, but certainly helps out like a good friend should.
