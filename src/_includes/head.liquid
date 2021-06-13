@@ -4,6 +4,25 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
   <title>roymosby.me | {{title}}</title>
   <meta name="description" content="{{description}}" />
+  
+  <!-- Open Graph -->
+  {% if title == "roymosby.me" %}
+    <meta property="og:type" content="website" />
+  {% elsif title == "about" %}
+    <meta property="og:type" content="website" />
+  {% else %}
+    <meta property="og:type" content="article" />
+  {% endif %}
+  <meta property="og:title" content="{{title}}" />
+  <meta property="og:description" content="{{description}}" />
+  {% if social_preview %}
+    <meta property="og:image" content="https://roymosby.me{{social_preview}}"/>
+  {% else %}
+  <meta property="og:image" content="https://roymosby.me/images/roymosby_me.jpg"/>
+  {% endif %}
+  <meta property="og:locale" content="en_US" />
+  <!-- End Open Graph -->
+
 
   <!-- favicon details -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
