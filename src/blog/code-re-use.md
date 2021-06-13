@@ -3,6 +3,7 @@ title: Code Re-use (Keeping it DRY)
 date: 2021-05-31
 extract: "I wrote a little over 1250 lines of code. This number is not notable except that it could have been much larger had I not found ways recycle some parts...."
 description: "Re-using code to make 3 forms into 1"
+social_preview: "/images/og/jat-iron.jpg" 
 ---
 
 <img src="/images/jat-iron.svg" alt="Job Application Tracker logo">

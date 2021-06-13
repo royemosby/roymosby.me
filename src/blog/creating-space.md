@@ -3,6 +3,7 @@ title: Creating Space (Working with Namespaces)
 date: 2021-05-02
 extract: "Namespaces provide a means to logically group and re-route controllers within a Rails app. Setting up a namespace consists of defining the namespace and then..."
 description: "Using namespaces to separate areas of functionality in a Rails app"
+social_preview: "/images/og/ror-newsroom.jpg"
 ---
 
 *A [repository for RoR Newsroom project](https://github.com/egomadking/RoR-Newsroom) can be found on my GitHub*
