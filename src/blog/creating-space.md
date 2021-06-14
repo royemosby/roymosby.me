@@ -17,7 +17,7 @@ For my phase 3 Ruby on Rails project, I decided to create RoR Newsroom.  This ne
   - They can read published articles
   - The can browse article tags and see associated published articles
   - They can see a staff page and an about page
-  - Theu CANNOT see any articles that are not yet published
+  - They CANNOT see any articles that are not yet published
   - They CANNOT make any changes
 - Newsroom employees would go to ror-newsroom.com/workspace to work
   - They have to log in with username/password our using GitHub's OAuth authentication
@@ -59,7 +59,7 @@ The `:workspace` nests the controllers `:articles`, `:editor_revisions`, and `:e
 
 ## Rails simplifies design decisions with conventions
 
-Since Ruby on Rails favors convention over configuration, inclusion of a namespace changes some file structures and and a little code. While this may sound daunting at first, respecting convention helps with the organization of a larger project. In short, as a Rails developer, I've been provided tools that allow me to focus on the behavior inside the project rather than having to invent frameworks for those behaviors myself. 
+Since Ruby on Rails favors convention over configuration, inclusion of a namespace changes some file structures and and a little code. While this may sound daunting at first, respecting convention helps with the organization of a larger project. In short, as a Rails developer, I've been provided tools that allow me to focus on the behavior inside the project rather than having to invent frameworks for those behaviors myself.
 
 Excluding the routes at the beginning of the article, here are the salient changes to a Rails app. The rest of this article will provide examples of each to get you up and going.
 
@@ -134,7 +134,7 @@ end
 
 ## Form helpers need more information
 
-In order for a form-helper to do its magic, it has to know information about what it is working on and where it is supposed to direct requests. Normally, they chave enough information when supplied a model instance to work with. By convention, it knows where the controllers are and what actions to use. Namespaces complicate this a bit so the form-helpers need just a little bit more information so that they know how to set up requests.
+In order for a form-helper to do its magic, it has to know information about what it is working on and where it is supposed to direct requests. Normally, they have enough information when supplied a model instance to work with. By convention, it knows where the controllers are and what actions to use. Namespaces complicate this a bit so the form-helpers need just a little bit more information so that they know how to set up requests.
 
 Here is an example typical Rails form template using form_with
 
@@ -152,7 +152,7 @@ Here is an example typical Rails form template using form_with
 <% end %>
 ```
 
-If this code above was used in a form referenced by a namespaced controller, the application would throw an error to the affect that a route could not be found. When given a model instance- `@article` in this case- it will look for an `AriclesController`. The form helper does not know to look in the Workspace:: namespace yet. The form will attempt to make the post action route to `ror-newsroom.com/articles` which does not exist. The desired route with the namespace is `ror-newsroom.com/workspace/articles`. Luckily, it only requires minor modification to get the helper the information that it needs.
+If this code above was used in a form referenced by a namespaced controller, the application would throw an error to the affect that a route could not be found. When given a model instance- `@article` in this case- it will look for an `ArticlesController`. The form helper does not know to look in the Workspace:: namespace yet. The form will attempt to make the post action route to `ror-newsroom.com/articles` which does not exist. The desired route with the namespace is `ror-newsroom.com/workspace/articles`. Luckily, it only requires minor modification to get the helper the information that it needs.
 
 ```ruby
 <%= form_with model: [:workspace, @article] do |f| %>
@@ -170,9 +170,9 @@ If this code above was used in a form referenced by a namespaced controller, the
 
 The `form_with` method also accepts an array of values, where one can designate a namespace and a model instance from which to work. The form builder can now correctly handle the post(or update) request. If `form_for` or `form_tag` are used, the same considerations must be taken into account.
 
-## Controller generators are smart!
+## Controller generators are smart
 
-If a generator is being used, they are flexible enough to automatically namespace controller classes and place all generated files in the correctly nested locations. 
+If a generator is being used, they are flexible enough to automatically namespace controller classes and place all generated files in the correctly nested locations.
 
 Normally one would use a generator like:
 
@@ -183,7 +183,7 @@ rails generate controller Articles
 To namespace, combine the namespace with the article as if it was a directory structure
 
 ```bash
-rails generate contoller Workspace/Articles
+rails generate controller Workspace/Articles
 ```
 
 This approach will place all the controllers and associated files in the correct directories. What is more, the controller's class will be declared correctly namespaced. Same with helper modules. Rails almost codes itself at times!

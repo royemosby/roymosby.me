@@ -1,7 +1,7 @@
 ---
 title: A recipe for a ruby CLI tool
 date: 2021-01-10
-extract: "With your own project, you are handed some basic requirements and you need to figure out these behaviours that satisfy them. Because of this, unless the task is blarining simple, it is best to approach it in a formulaic manner. That is where the recipe above comes into play."
+extract: "With your own project, you are handed some basic requirements and you need to figure out these behaviors that satisfy them. Because of this, unless the task is blaringly simple, it is best to approach it in a formulaic manner. That is where the recipe above comes into play."
 description: "How to plan a Ruby CLI project"
 ---
 
@@ -32,9 +32,9 @@ description: "How to plan a Ruby CLI project"
 4  Develop MVP
 5  Assess and seek feedback
 
-Doing lessons and making a project from scratch are two sepparate things entirely. With a lesson using BDD (behavior driven design) tests from an test suite, the focus is soley on getting a system to work by satifying a series of behavioral expectations. You sees a test and its expected output. You figure out what behaviour satisfies that test then move onto the next test. After a while you have a complete, working system. You do not need to know how the system works as a whole to accomplish this.
+Doing lessons and making a project from scratch are two separate things entirely. With a lesson using BDD (behavior driven design) tests from an test suite, the focus is solely on getting a system to work by satisfying a series of behavioral expectations. You sees a test and its expected output. You figure out what behavior satisfies that test then move onto the next test. After a while you have a complete, working system. You do not need to know how the system works as a whole to accomplish this.
 
-With your own project, you are handed some basic requirements and you need to figure out these behaviours that satisfy them. Because of this, unless the task is blarining simple, it is best to approach it in a formulaic manner. That is where the recipe above comes into play. These instructions can be applied to successfully design, develop, and implement a successfuly project.
+With your own project, you are handed some basic requirements and you need to figure out these behaviors that satisfy them. Because of this, unless the task is blaringly simple, it is best to approach it in a formulaic manner. That is where the recipe above comes into play. These instructions can be applied to successfully design, develop, and implement a successfully project.
 
 ## 1. Identify a need
 
@@ -69,7 +69,7 @@ After fleshing out a [sequence diagram](https://en.wikipedia.org/wiki/Sequence_d
 
 ## 5. Develop
 
-This is where the coding begins! The goal of this step is to create a minimum viable product (MVP). While a developer may get ideas along the way about new functionality, it's vital to get a project working. Keep a list of those ideas and get back to them later- you may have a different perspective on the feature afterwards. I start fleshing out my code based on the diagram I already created. I establish the classes and then implement the steps that I invisioned the code needed to take to accomplish its tasks. Afew times I ran across a step that does not work or needs to be be broken down further. At that point, it is okay to revise the intial design. Once something works, it is a good idea to update the original design.
+This is where the coding begins! The goal of this step is to create a minimum viable product (MVP). While a developer may get ideas along the way about new functionality, it's vital to get a project working. Keep a list of those ideas and get back to them later- you may have a different perspective on the feature afterwards. I start fleshing out my code based on the diagram I already created. I establish the classes and then implement the steps that I envisioned the code needed to take to accomplish its tasks. A few times I ran across a step that does not work or needs to be be broken down further. At that point, it is okay to revise the initial design. Once something works, it is a good idea to update the original design.
 
 ## 6. Assess and seek feedback
 

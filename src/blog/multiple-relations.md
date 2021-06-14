@@ -15,7 +15,7 @@ social_preview: "/images/og/user-recipe.jpg"
 
 RecipeSwap, a Ruby project built with Sinatra and ActiveRecord for my Flatiron class, is a recipe sharing community. Users of the RecipeSwap can create recipes and curate other's recipes by favoriting them. Before going any further, this article assumes familiarity with Ruby and basic structured database concepts.
 
-## Obect Relation Model
+## Object Relation Model
 
 To design my object relation model, I have to consider two types of data in RecipeSwap: users and recipes. I also have to determine how those two types relate to each other. On one hand, I have users who post recipes. A recipe can only be authored by one user. On the other hand, I have users that can favorite recipes. A recipe can be favorited by any number of users. Like Shakespeare's players, I have to get `user` and `recipe` each to play more than one part.
 
@@ -176,4 +176,4 @@ On each, User and Recipe, I declare the association `has_many :collector_favorit
 
 The final step on the "walk" through the model in creating the many-to-many association between the two destination objects. Each has a `has_many` relation to the other but refers to them through `collectors` and `favorites`. Since neither of these is a table in our database, we have to tell ActiveRecord what classes we are referring to. This is done through the `class_name:` hash. I also have to tell it that these associations are made `through: :collector_favorites`.
 
-It was quite a journey to make two associations work independently on the same tables. By renaming the resources in one relation, RepiceSwap users can make recipes and favorite them too. Like Hamlet said, "Suit the action to the word, the word to the action..."
+It was quite a journey to make two associations work independently on the same tables. By renaming the resources in one relation, RecipeSwap users can make recipes and favorite them too. Like Hamlet said, "Suit the action to the word, the word to the action..."
