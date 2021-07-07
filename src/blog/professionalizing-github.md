@@ -5,7 +5,7 @@ extract: "As I have become more serious in my pursuit of a coding job, that user
 social_preview: "/images/og/GH-graph.jpg" 
 ---
 
-![Pretend github contribution graph](/images/GH-graph.jpg)
+![Pretend github contribution graph](/images/og/GH-graph.jpg)
 
 Egomadking is an online handle that has served me well since the days we had to pay for hourly dial-up. Without going into too many details, it is a nod to a couple of characters from Gaelic mythology. Years ago, I signed up with GitHub using that username without thinking much about how long I would be sticking with the platform.
 
