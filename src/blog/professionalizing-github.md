@@ -71,9 +71,9 @@ git remote set-url origin https://github.com/royemosby/RecipeBook.git
 
 ## References
 
-[Free Code Camp: A quick guide to changing your GitHub username](https://www.freecodecamp.org/news/a-quick-guide-to-changing-your-github-username/)
-[GitHub Docs: Managing user account settings](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/managing-user-account-settings)
-[Stack Overflow: Change GitHub Account username](https://stackoverflow.com/questions/9191918/change-github-account-username)
-[Nikhita.dev: Changing my github username](https://www.nikhita.dev/changing-my-github-username)
+- [Free Code Camp: A quick guide to changing your GitHub username](https://www.freecodecamp.org/news/a-quick-guide-to-changing-your-github-username/)
+- [GitHub Docs: Managing user account settings](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/managing-user-account-settings)
+- [Stack Overflow: Change GitHub Account username](https://stackoverflow.com/questions/9191918/change-github-account-username)
+- [Nikhita.dev: Changing my github username](https://www.nikhita.dev/changing-my-github-username)
 
 
