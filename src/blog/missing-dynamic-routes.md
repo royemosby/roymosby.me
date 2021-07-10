@@ -108,7 +108,9 @@ To use the RouteOrRedirect component in the list of routes in App.js, it's just 
 //extract from App.js 
 
 ///...
-<Route exact path="/recipes/:recipeId/edit"component={EditRecipe} />
+<Route exact path="/recipes"><Redirect to="/" /></Route>
+<Route exact path="/recipes/new" component={NewRecipe} />
+<RouteOrRedirect path="/recipes/:recipeId/edit"component={EditRecipe} />
 <RouteOrRedirect path="/recipes/:recipeId" component={ShowRecipe} />
 <Route path="*">
   <NoMatch />
