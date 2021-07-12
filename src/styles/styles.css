@@ -39,6 +39,8 @@ footer ul {
   margin-bottom: 1rem
 }
 
+
+
 .blog-title h1 {
   font-size: 1.5rem;
   font-weight: 900;
@@ -80,6 +82,11 @@ footer ul {
 @media screen and (min-width: 650px) {
   .blog-title h1 {
     font-size: 4rem;
+  }
+
+  p img {
+    max-width: 500px;
+    transform: translate(25%);
   }
 }
 
