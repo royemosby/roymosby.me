@@ -4,7 +4,9 @@ date: 2020-12-18
 extract: "While I may be a little older than the typical person transitioning into software development, I am driven by the notion that everyone is on their own journey. Mine has taken me through a 20-year military career in signal and to nearly 15 countries. I am not ready to stop yet either."
 description: "Why I chose the path of the web software engineer" 
 ---
-![workflow sketch](/images/workflow.jpg)
+
+<img src="/images/workflow.jpg" alt="workflow sketch" />
+
 While I may be a little older than the typical person transitioning into software development, I am driven by the notion that everyone is on their own journey. Mine has taken me through a 20-year military career in signal and to nearly 15 countries. I am not ready to stop yet either.
 
 Thoughts of becoming a software engineer have been on the brew for quite some time. The notion was planted when I was handed responsibility for maintaining my unit's intranet portal. It had a built-in workflow modeling tool that automated routine digital processes.
