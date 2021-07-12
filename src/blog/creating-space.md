@@ -6,7 +6,9 @@ description: "Using namespaces to separate areas of functionality in a Rails app
 social_preview: "/images/og/ror-newsroom.jpg"
 ---
 
-*A [repository for RoR Newsroom project](https://github.com/egomadking/RoR-Newsroom) can be found on my GitHub*
+*[Project repo on Github](https://github.com/egomadking/RoR-Newsroom)*
+
+*[Demo of RoR Newsroom on Heroku]()* (it sometimes takes a moment to open)
 
 <img src="/images/ror_newsroom.svg" alt="Ruby on Rails Newsroom Logo">
 
