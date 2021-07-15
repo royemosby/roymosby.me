@@ -1,7 +1,7 @@
 ---
 title: Memoization in JavaScript
 date: 2021-07-15
-extract: "testing"
+extract: "Memoization allows a developer to cache responses from a computationally expensive function. The memoized function only has to be run once with a given input. If ran again with the same input, the result is pulled from the cache rather than recalculated."
 description: "How to use memoization to avoid repeating expensive computations"
 social_preview: "/images/og/memoize.jpg"
 ---
