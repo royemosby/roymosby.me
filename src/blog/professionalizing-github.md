@@ -3,6 +3,7 @@ title: professionalizing your github account
 date: 2021-06-30
 extract: "As I have become more serious in my pursuit of a coding job, that username has been much on my mind. While it's not an embarrassment, it is a distraction."
 social_preview: "/images/og/GH-graph.jpg" 
+tags: professional, github, jobhunting
 ---
 
 <img src="/images/og/GH-graph.jpg" alt="pretend GitHub contribution graph"/>
