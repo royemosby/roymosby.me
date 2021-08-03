@@ -4,7 +4,7 @@ date: 2021-07-31
 extract: "When approaching a problem, it may be tempting to work within the constraints of the examples given. While a solution may arise from that looks correct, you may be leading yourself astray. I recently worked through the change problem which is an example of this."
 description: The incorrect and correct approaches to the making change problem
 social_preview: "/images/og/coin-stacks.jpg"
-tags: javascript, challenge, pattern
+tags: ['javascript', 'challenge', 'pattern']
 ---
 <img src="/images/og/coin-stacks.jpg" alt="article hero image of 3 stacks of coins">
 

@@ -4,7 +4,7 @@ date: 2021-07-04
 extract: "Namespaces provide a means to logically group and re-route controllers within a Rails app. Setting up a namespace consists of defining the namespace and then..."
 description: "Handling missing dynamic routes in React using React-Router"
 social_preview: "/images/og/rb.jpg"
-tags: javascript, react, router, pattern, project
+tags: ['javascript', 'react', 'router', 'pattern', 'project']
 ---
 *A [repository for RecipeBook](https://github.com/royemosby/RecipeBook) can be found on my GitHub*
 

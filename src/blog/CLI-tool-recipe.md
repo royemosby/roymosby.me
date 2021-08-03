@@ -4,7 +4,7 @@ date: 2021-01-10
 extract: "With your own project, you are handed some basic requirements and you need to figure out these behaviors that satisfy them. Because of this, unless the task is blaringly simple, it is best to approach it in a formulaic manner. That is where the recipe above comes into play."
 description: "How to plan a Ruby CLI project"
 social_preview: "/images/og/nutritionAnalyzer.jpg"
-tags: ruby, cli, project
+tags: ['ruby', 'cli', 'project']
 ---
 
 <img src="/images/nutritionAnalyzer.gif" alt="Nutrition Analyzer command line interface preview">

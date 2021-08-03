@@ -4,7 +4,7 @@ date: 2021-02-14
 extract: "To design my object relation model, I have to consider two types of data in RecipeSwap: users and recipes. I also have to determine how those two types relate to each other."
 description: "Object relational model challenges found in my Ruby Sinatra + ActiveRecord project, RecipeSwap."
 social_preview: "/images/og/user-recipe.jpg"
-tags: project, ruby, sinatra, planning
+tags: ['project', 'ruby', 'sinatra', 'planning']
 ---
 
 "And all the men and women merely players; They have their exits and their entrances, And one man in his time plays many parts..." -Shakespeare, As You Like It
