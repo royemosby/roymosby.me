@@ -1,5 +1,5 @@
 ---
-title: Making Change Problem
+title: Making Change Problem, Part I
 date: 2021-07-31
 extract: "When approaching a problem, it may be tempting to work within the constraints of the examples given. While a solution may arise from that looks correct, you may be leading yourself astray. I recently worked through the change problem which is an example of this."
 description: The incorrect and correct approaches to the making change problem
@@ -84,7 +84,7 @@ const makeChangeClosure = (coins) => {
       if(remaining > 0){
         bruteChange(remaining, [...aggregator, coin])
       } else if (remaining === 0) {
-        combos.push([...aggregator, coin].sort((a,b)=> b-a))
+        combos.push([...aggregator, coin]
         if(aggregator.length < shortestCombo.length || shortestCombo.length === 0 ){
           shortestCombo = [...aggregator, coin]
         }
@@ -96,7 +96,7 @@ const makeChangeClosure = (coins) => {
 }
 
 const bruteChange = makeChangeClosure([10,6,1])
-const bruteChange11 = bruteChange(11)
+const bruteChange12 = bruteChange(12)
 ```
 
 In the code above, `makeChange()` is doing most of the work. It takes in a value, and an aggregator array. As it matches a coin, it pushes that coin's value into the aggregator and subtracts it from the value. Those values are then fed back into the same function, accomplishing the same thing.  All the while, through the power of recursion, the algorithm is creating branches that represent all possible coin combinations.
@@ -122,7 +122,7 @@ Visualized, one can see how fast the number of iterations increases relative to 
 
 ![Exponential growth chart based on number of inputs](/images/exponential-growth.png)
 
-## What's next?
+## What's next for part II?
 
 Optimization. When the recursion branches across all permutations, duplicates are bound to crop up. The table below shows the combinations made when the algorithm is given a value of 12.
 
