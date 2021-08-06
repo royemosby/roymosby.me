@@ -39,6 +39,9 @@ footer ul {
   margin-bottom: 1rem
 }
 
+figcaption {
+  font-style: italic;
+}
 
 
 .blog-title h1 {
