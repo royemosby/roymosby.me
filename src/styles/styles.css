@@ -73,6 +73,11 @@ footer ul {
   font-size: 1.5rem;
 }
 
+code[class*="language-"],
+pre[class*="language-"] {
+  font-size: .9em;
+}
+
 @media screen and (min-width: 400px) {
   .blog-title h1 {
     font-size: 2rem;
