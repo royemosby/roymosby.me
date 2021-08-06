@@ -2,7 +2,7 @@
 title: Making Change Problem, Part II
 date: 2021-08-06
 extract: "This is the second part of a 2-part blog post on the coin problem. My goal with this second post is to decrease the computational expense of my original solution."
-description: Optimizing the brute-force solution to the coin problem
+description: Optimizing the brute-force solution to the change problem
 social_preview: "/images/og/coin-stacks.jpg"
 tags: ['javascript', 'challenge', 'pattern', 'optimization']
 ---
