@@ -129,3 +129,5 @@ Optimization. When the recursion branches across all permutations, duplicates ar
 ![Table of combinations when given coins of 10, 6, and 1 and a target value of 12](/images/combo-table.png)
 
 Through various techniques some of the repetition could be avoided. For an upcoming post, I will tackle the solution's runtime complexity and make it easier to run.
+
+Continue on to [part II...](/blog/making-change-problem-pt2)
