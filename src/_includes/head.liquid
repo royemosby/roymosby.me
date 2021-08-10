@@ -14,13 +14,19 @@
     <meta property="og:type" content="article" />
   {% endif %}
   <meta property="og:title" content="{{title}}" />
+  <meta name="twitter:title" content="{{title}}">
   <meta property="og:description" content="{{description}}" />
+  <meta property="twitter:description" content="{{description}}" />
   {% if social_preview %}
     <meta property="og:image" content="https://roymosby.me{{social_preview}}"/>
+    <meta property="twitter:image" content="https://roymosby.me{{social_preview}}"/>
   {% else %}
-  <meta property="og:image" content="https://roymosby.me/images/og/roymosby_me.jpg"/>
+    <meta property="og:image" content="https://roymosby.me/images/og/roymosby_me.jpg"/>
+    <meta property="twitter:image" content="https://roymosby.me/images/og/roymosby_me.jpg"/>
   {% endif %}
   <meta property="og:locale" content="en_US" />
+  <meta name="twitter:site" content="@royemosby">
+  <meta name="twitter:creator" content="@@royemosby">
   <!-- End Open Graph -->
 
 
