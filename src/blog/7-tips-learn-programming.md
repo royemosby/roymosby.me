@@ -3,7 +3,7 @@ title: 7 Fundamental Tips To Learn Programming
 date: 2021-08-10
 extract: "To be honest, I had several false starts in the infancy of that interest. Since then, I've gained experience in \"learning how to learn\". I have distilled my approach to into 7 tips that anyone can use to learn how to program."
 description: "7 Fundamental Tips To Learn Programming"
-social_preview: "/images/og/GH-graph.jpg" 
+social_preview: "/images/og/still-learning.jpg" 
 tags: ['learning', 'beginning', 'essay', 'planning']
 ---
 
