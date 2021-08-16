@@ -1,6 +1,6 @@
 ---
 title: Getting Up and Going with React and Bulma (and Sass)
-date: 2021-08-15
+date: 2021-08-16
 extract: "I've been a fan of Syntactically Awesome Stylesheets, SASS, for some time now and have found it a useful tool in my projects. Going forward with React I wanted to continue using SASS and adopt a library suitable to jump start my styling."
 description: "A guide to adding Sass and Bulma to a create-react-app project"
 social_preview: "/images/og/React-Sass-Bulma.png" 
