@@ -13,7 +13,7 @@ tags: ['project', 'ruby', 'rails', 'javascript', 'pattern']
 
 As my graduation from Flatiron draws nearer, I am starting to focus on landing my first developer job. Inspired by one of my peers, Stacey (hi Stacey!!!) and her job tracker, I set out to make a job application tracker of my own.
 
-[JAT-Iron](https://github.com/egomadking/JAT-Iron) - a cheesy name for my job application tracker, it meant to run on a person's local system. A person can clone [the repo](https://github.com/egomadking/JAT-Iron), install it with the instructions found in the project's readme. It requires Ruby v 2.5 or greater, a terminal, and a modern web browser. Sorry IE!!
+[JAT-Iron](https://github.com/royemosby/JAT-Iron) - a cheesy name for my job application tracker, it meant to run on a person's local system. A person can clone [the repo](https://github.com/royemosby/JAT-Iron), install it with the instructions found in the project's readme. It requires Ruby v 2.5 or greater, a terminal, and a modern web browser. Sorry IE!!
 
 ## Code re-use
 

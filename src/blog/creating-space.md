@@ -7,7 +7,7 @@ social_preview: "/images/og/ror-newsroom.jpg"
 tags: ['ruby', 'rails', 'pattern', 'namespace']
 ---
 
-*[Project repo on Github](https://github.com/egomadking/RoR-Newsroom)*
+*[Project repo on Github](https://github.com/royemosby/RoR-Newsroom)*
 
 *[Demo of RoR Newsroom on Heroku]()* (it sometimes takes a moment to open)
 
