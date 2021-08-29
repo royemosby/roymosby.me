@@ -3,7 +3,7 @@ title: "Finding and stopping stray server processes"
 date: 2021-08-28
 extract: "When running servers or services from the terminal, it is often nice to know how to shut them down manually in case things go wrong or you lose a terminal window."
 description: "Finding server processes using the LSOF command"
-social_preview: "/images/og/file-drawer.jpg.jpg"
+social_preview: "/images/og/file-drawer.jpg"
 tags: ["command line", "troubleshooting"]
 ---
 
