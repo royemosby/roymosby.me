@@ -1,9 +1,9 @@
 ---
-title: "Finding and stopping stray processes"
+title: "Finding and stopping stray server processes"
 date: 2021-08-28
 extract: "When running servers or services from the terminal, it is often nice to know how to shut them down manually in case things go wrong or you lose a terminal window."
-description: "Finding processes using the LSOF command"
-social_preview: "/images/og/coin-stacks.jpg"
+description: "Finding server processes using the LSOF command"
+social_preview: "/images/og/file-drawer.jpg.jpg"
 tags: ["command line", "troubleshooting"]
 ---
 
@@ -13,7 +13,7 @@ tags: ["command line", "troubleshooting"]
 Maksym Kaharlytskyi</a></figcaption>
 </figure>
 
-When running servers or services from the terminal, it is often nice to know how to shut them down manually in case things go wrong or you lose a terminal window. To dime myself out, it's usually closing down a terminal window without stopping Browser Sync or Python's SimpleHTTPServer. We're all learning, right?
+When running servers from the terminal, it is often nice to know how to shut them down manually in case things go wrong or you lose a terminal window. To dime myself out, it's usually closing down a terminal window without stopping Browser Sync, Rails server, or Python's SimpleHTTPServer. We're all learning, right?
 
 The easiest way to find and shut down that errant process is to examine what files are currently open. Enter the command `lsof` . The command is an abbreviation of "list open files" and reports currently open files and what processes are using them.
 
