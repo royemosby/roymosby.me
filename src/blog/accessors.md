@@ -1,7 +1,7 @@
 ---
 title: "Accessors in JavaScript"
 date: 2021-009-4
-extract: "Aside from data properties, objects also have another category of properties called accessors. These are methods referred to as "getters" and "setters" that allow the program to retrieve or set a value"
+extract: "Aside from data properties, objects also have another category of properties called accessors. These are methods referred to as \"getters\" and \"setters\" that allow the program to retrieve or set a value"
 description: "Using accessor properties inside of a Javascript object"
 tags: ["javascript", "accessors", "getter", "setter", "fundamentals"]
 ---
