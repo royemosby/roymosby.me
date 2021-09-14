@@ -4,7 +4,10 @@ date: 2021-09-04
 extract: "Aside from data properties, objects also have another category of properties called accessors. These are methods referred to as \"getters\" and \"setters\" that allow the program to retrieve or set a value"
 description: "Using accessor properties inside of a Javascript object"
 tags: ["javascript", "accessors", "getter", "setter", "fundamentals"]
+social_preview: "/images/og/accessors.jpg"
 ---
+
+<img src="/images/og/accessors.jpg" alt="article hero image of accessors in an object">
 
 An object is a versatile tool for JavaScript developers. They can contain information (data properties), be asked to perform work (methods which are another type of data property), and passed around inside of a program as a tidy package.
 
