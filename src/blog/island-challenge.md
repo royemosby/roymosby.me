@@ -1,5 +1,5 @@
 ---
-title: island challenge
+title: island counting challenge
 date: 2021-09-28
 extract: "A coding that I faced recently during a technical interview was called the island counting challenge. It goes by several other similar names- island hopper, number of islands challenge, etc. What it amount to is that the testee is is supposed to find the number of islands in a text-based grid."
 description: "Solving the island counting challenge with recursion"
