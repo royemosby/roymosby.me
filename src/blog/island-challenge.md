@@ -6,7 +6,7 @@ description: "Solving the island counting challenge with recursion"
 tags: ["javascript", "challenge", "pattern", "recursion"]
 ---
 
-A coding that I faced recently during a technical interview was called the island counting challenge. It goes by several other similar names- island hopper, number of islands challenge, etc. What it amount to is that the testee is is supposed to find the number of islands in a text-based grid. The input is usually given as an array of arrays filled with "L"s (land) and "W"s (water).  When stacked, they make a grid similar to the following:
+A coding that I faced recently during a technical interview was called the island counting challenge. It goes by several other similar names- island hopper, number of islands challenge, etc. What it amounts to is that the testee is supposed to find the number of islands in a text-based grid. The input is usually given as an array of arrays filled with "L"s (land) and "W"s (water).  When stacked, they make a grid similar to the following:
 
 ```javascript
 const test1 = [
@@ -23,7 +23,7 @@ There are versions that give the testee a single string and the dimensions of th
 2. The solution should return a count of the number of islands in the input.
 3. It should be assumed that the grid is surrounded by water.
 
-To keep terminology simple, I will refer to the input text as a grid since that is the shape it embodies. I will also relate the location of individual characters in terms of rows and columns. Rows and columns are relatable to anyone who has worked with a spreadsheet. It is also much easier to reason with than talking about an items in sub-arrays of an array (that's very chewy). 
+To keep terminology simple, I will refer to the input text as a grid since that is the shape it embodies. I will also relate the location of individual characters in terms of rows and columns. Rows and columns are relatable to anyone who has worked with a spreadsheet. It is also much easier to reason with than talking about an items in sub-arrays of an array (that's very chewy).
 
 Since the islands can be of any size, from a sole character all the way up to the entire grid, we need to find a way to describe how we identify an island. Doing so is fairly intuitive and can lead an adequate solution to this challenge. The first step to making an island is identifying the first piece of land. This is a matter of iterating through each character in each row until an "L" is encountered.
 
