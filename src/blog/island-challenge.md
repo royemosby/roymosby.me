@@ -3,8 +3,15 @@ title: island counting challenge
 date: 2021-09-28
 extract: "A coding that I faced recently during a technical interview was called the island counting challenge. It goes by several other similar names- island hopper, number of islands challenge, etc. What it amount to is that the testee is is supposed to find the number of islands in a text-based grid."
 description: "Solving the island counting challenge with recursion"
+social_preview: "/images/og/islands.jpg"
+
 tags: ["javascript", "challenge", "pattern", "recursion"]
 ---
+
+<figure>
+  <img src="/images/og/islands.jpg" alt="hero image of islands in Halong Bay, Thành phố Hạ Long, Quảng Ninh, Vietnam">
+  <figcaption>Image by <a href="https://unsplash.com/@lgoetz">Lewis J Goetz</a></figcaption>
+</figure>
 
 A coding that I faced recently during a technical interview was called the island counting challenge. It goes by several other similar names- island hopper, number of islands challenge, etc. What it amounts to is that the testee is supposed to find the number of islands in a text-based grid. The input is usually given as an array of arrays filled with "L"s (land) and "W"s (water).  When stacked, they make a grid similar to the following:
 
