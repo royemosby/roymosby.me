@@ -1,30 +1,26 @@
 {
-  "name": "roymosby.me",
-  "version": "2.0.0",
-  "description": "Professional portfolio and blog",
-  "main": "index.js",
+  "name": "digital-garden",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "serve": "npx eleventy --serve",
-    "debug": "DEBUG=* npx @11ty/eleventy",
-    "clean": "rm -rf _site"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/royemosby/roymosby.me.git"
-  },
-  "keywords": [
-    "blog",
-    "portfolio"
-  ],
-  "author": "Roy Mosby",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/royemosby/roymosby.me/issues"
-  },
-  "homepage": "https://github.com/royemosby/roymosby.me#readme",
-  "devDependencies": {
-    "@11ty/eleventy": "^0.11.1",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.6"
-  },
-  "dependencies": {}
+  "dependencies": {
+    "@astrojs/check": "^0.4.1",
+    "@astrojs/netlify": "^4.1.1",
+    "@astrojs/react": "^3.0.9",
+    "@astrojs/sitemap": "^3.0.5",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "astro": "^4.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.70.0",
+    "typescript": "^5.3.3"
+  }
 }
